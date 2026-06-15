@@ -476,16 +476,8 @@
   -> same as: ||mcs.zijieapi.com^
 [SKIP] 0.0.0.0 mssdk.zijieapi.com
   -> same as: ||mssdk.zijieapi.com^
-[SKIP] 0.0.0.0 tnc0-aliec2.zijieapi.com
-  -> same as: ||tnc0-aliec2.zijieapi.com^
 [SKIP] 0.0.0.0 tnc0-bjlgy.zijieapi.com
   -> same as: ||tnc0-bjlgy.zijieapi.com^
-[SKIP] 0.0.0.0 tnc3-aliec2.zijieapi.com
-  -> same as: ||tnc3-aliec2.zijieapi.com^
-[SKIP] 0.0.0.0 tnc3-alisc1.zijieapi.com
-  -> same as: ||tnc3-alisc1.zijieapi.com^
-[SKIP] 0.0.0.0 tnc3-bjlgy.zijieapi.com
-  -> same as: ||tnc3-bjlgy.zijieapi.com^
 [SKIP] 0.0.0.0 mores.toponad.com
   -> same as: ||mores.toponad.com^
 [SKIP] 0.0.0.0 p66-ad.adkwai.com
