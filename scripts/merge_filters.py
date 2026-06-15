@@ -21,9 +21,9 @@ OUTPUT_DIR = PROJECT_DIR / "output"
 
 # 上游规则源
 SOURCES = {
-    "awavenue": "https://github.boki.moe/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "github_hosts": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/maxiaof/github-hosts/refs/heads/master/hosts",
-    "smahosts": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
+    "awavenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "github_hosts": "https://raw.githubusercontent.com/maxiaof/github-hosts/refs/heads/master/hosts",
+    "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
 }
 
 
