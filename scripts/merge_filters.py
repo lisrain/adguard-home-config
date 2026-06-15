@@ -5,8 +5,8 @@ AdGuard Home 过滤规则合并脚本
 """
 
 import os
-import subprocess
 import sys
+import urllib.request
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -25,19 +25,13 @@ SOURCES = {
 
 
 def download_file(url: str, output_path: Path) -> bool:
-    """下载文件 - 使用 PowerShell"""
+    """下载文件"""
     try:
-        # 使用 PowerShell 的 Invoke-WebRequest
-        ps_cmd = f'Invoke-WebRequest -Uri "{url}" -OutFile "{output_path}" -UseBasicParsing'
-        subprocess.run(
-            ["powershell", "-Command", ps_cmd],
-            check=True,
-            capture_output=True,
-        )
+        urllib.request.urlretrieve(url, str(output_path))
         return True
-    except subprocess.CalledProcessError as e:
+    except Exception as e:
         print(f"  下载失败: {url}")
-        print(f"  错误: {e.stderr.decode('utf-8', errors='ignore')[:200]}")
+        print(f"  错误: {e}")
         return False
 
 
