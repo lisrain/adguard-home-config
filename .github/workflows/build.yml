@@ -40,5 +40,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git diff --staged --quiet || git commit -m "chore: update filter lists [skip ci]"
+          git diff --staged --quiet || git commit -m "build: auto sync filter lists"
           git push
