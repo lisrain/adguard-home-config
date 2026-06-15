@@ -1,0 +1,44 @@
+name: Build Filter Lists
+
+on:
+  schedule:
+    - cron: '0 7 * * *'    # 15:00 Beijing
+    - cron: '0 19 * * *'   # 03:00 Beijing
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'scripts/**'
+      - 'custom/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Merge and deduplicate filters
+        run: python scripts/merge_filters.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: adguard-filters
+          path: output/
+          retention-days: 30
+
+      - name: Commit and push output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "chore: update filter lists [skip ci]"
+          git push
