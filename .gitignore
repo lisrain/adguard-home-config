@@ -1,6 +1,3 @@
-# 输出目录
-output/
-
 # 上游下载的临时文件
 upstream/*.txt
 

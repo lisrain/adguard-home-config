@@ -1,0 +1,1060 @@
+[SKIP] ||ad.gameley.com^
+  -> same as: ||ad.gameley.com^
+[SKIP] 0.0.0.0 wxa.wxs.qq.com
+  -> same as: ||wxa.wxs.qq.com^
+[SKIP] 0.0.0.0 wxsnsdy.wxs.qq.com
+  -> same as: ||wxsnsdy.wxs.qq.com^
+[SKIP] 0.0.0.0 wxsnsdythumb.wxs.qq.com
+  -> same as: ||wxsnsdythumb.wxs.qq.com^
+[SKIP] 0.0.0.0 badjs.weixinbridge.com
+  -> same as: ||badjs.weixinbridge.com^
+[SKIP] 0.0.0.0 wximg.wxs.qq.com  #微信小程序开屏和其他广告图片，然而照样会空白屏显示3~5秒，弹窗广告照弹(只是无图)，广告位照样占(只是无图)。误杀暂未发现，看域名应该会有一些。
+  -> same as: ||wximg.wxs.qq.com^
+[SKIP] 0.0.0.0 wxsmw.wxs.qq.com  #微信小程序底下的视频广告，广告位还在，只是能省点流量，不会被视频打扰。误杀未知。
+  -> same as: ||wxsmw.wxs.qq.com^
+[SKIP] 0.0.0.0 adimg.uve.weibo.com
+  -> same as: ||adimg.uve.weibo.com^
+[SKIP] 0.0.0.0 bootpreload.uve.weibo.com
+  -> same as: ||bootpreload.uve.weibo.com^
+[SKIP] 0.0.0.0 sdkapp.uve.weibo.com
+  -> same as: ||sdkapp.uve.weibo.com^
+[SKIP] 0.0.0.0 datacollection.uve.weibo.com #开屏？
+  -> same as: ||datacollection.uve.weibo.com^
+[SKIP] 0.0.0.0 ad.weibo.com
+  -> same as: ||ad.weibo.com^
+[SKIP] 0.0.0.0 adsmind.ugdtimg.com
+  -> same as: ||adsmind.ugdtimg.com^
+[SKIP] 0.0.0.0 adstrategy.biz.weibo.com
+  -> same as: ||adstrategy.biz.weibo.com^
+[SKIP] 0.0.0.0 api.jietuhb.com  #摇一摇广告
+  -> same as: ||api.jietuhb.com^
+[SKIP] 0.0.0.0 pgdt.ugdtimg.com  #图片开屏广告
+  -> same as: ||pgdt.ugdtimg.com^
+[SKIP] 0.0.0.0 cdn-ad.wtzw.com
+  -> same as: ||cdn-ad.wtzw.com^
+[SKIP] 0.0.0.0 uedas.qidian.com
+  -> same as: ||uedas.qidian.com^
+[SKIP] 0.0.0.0 m.ad.zhangyue.com
+  -> same as: ||m.ad.zhangyue.com^
+[SKIP] 0.0.0.0 saad.ms.zhangyue.net
+  -> same as: ||saad.ms.zhangyue.net^
+[SKIP] 0.0.0.0 smad.ms.zhangyue.net
+  -> same as: ||smad.ms.zhangyue.net^
+[SKIP] 0.0.0.0 ii.gdt.qq.com
+  -> same as: ||ii.gdt.qq.com^
+[SKIP] 0.0.0.0 snowflake.qq.com
+  -> same as: ||snowflake.qq.com^
+[SKIP] 0.0.0.0 ad.v3mh.com
+  -> same as: ||ad.v3mh.com^
+[SKIP] 0.0.0.0 ads.v3mh.com
+  -> same as: ||ads.v3mh.com^
+[SKIP] 0.0.0.0 pgdt.gtimg.cn  #QQ音乐开屏
+  -> same as: ||pgdt.gtimg.cn^
+[SKIP] 0.0.0.0 api-ad-product.huxiu.com #虎嗅
+  -> same as: ||api-ad-product.huxiu.com^
+[SKIP] 0.0.0.0 static-s.iqiyi.com  #主页视频广告预览图
+  -> same as: ||static-s.iqiyi.com^
+[SKIP] 0.0.0.0 ads-img-al.xhscdn.com
+  -> same as: ||ads-img-al.xhscdn.com^
+[SKIP] 0.0.0.0 ads-video-al.xhscdn.com
+  -> same as: ||ads-video-al.xhscdn.com^
+[SKIP] 0.0.0.0 ads-video-qc.xhscdn.com
+  -> same as: ||ads-video-qc.xhscdn.com^
+[SKIP] 0.0.0.0 ap.dongqiudi.com
+  -> same as: ||ap.dongqiudi.com^
+[SKIP] 0.0.0.0 images.pinduoduo.com
+  -> same as: ||images.pinduoduo.com^
+[SKIP] 0.0.0.0 t-dsp.pinduoduo.com
+  -> same as: ||t-dsp.pinduoduo.com^
+[SKIP] 0.0.0.0 ads.95516.com  #云闪付
+  -> same as: ||ads.95516.com^
+[SKIP] 0.0.0.0 optimus-ads.amap.com
+  -> same as: ||optimus-ads.amap.com^
+[SKIP] 0.0.0.0 ad.12306.cn  #12306开屏
+  -> same as: ||ad.12306.cn^
+[SKIP] 0.0.0.0 g.fancyapi.com
+  -> same as: ||g.fancyapi.com^
+[SKIP] 0.0.0.0 ad-sdk-config.youdao.com
+  -> same as: ||ad-sdk-config.youdao.com^
+[SKIP] 0.0.0.0 gorgon.youdao.com
+  -> same as: ||gorgon.youdao.com^
+[SKIP] 0.0.0.0 advertpay-vip-ssl.xunlei.com
+  -> same as: 0.0.0.0 advertpay-vip-ssl.xunlei.com
+[SKIP] 0.0.0.0 adsp.xunlei.com
+  -> same as: ||adsp.xunlei.com^
+[SKIP] 0.0.0.0 adui.tg.meitu.com  #美颜相机
+  -> same as: ||adui.tg.meitu.com^
+[SKIP] 0.0.0.0 api-ad-data.kajicam.com
+  -> same as: ||api-ad-data.kajicam.com^
+[SKIP] 0.0.0.0 zjres-ad.kajicam.com
+  -> same as: ||zjres-ad.kajicam.com^
+[SKIP] 0.0.0.0 adtrack.quark.cn
+  -> same as: ||adtrack.quark.cn^
+[SKIP] 0.0.0.0 track.lc.quark.cn
+  -> same as: ||track.lc.quark.cn^
+[SKIP] 0.0.0.0 ad.cyapi.cn  #彩云天气
+  -> same as: ||ad.cyapi.cn^
+[SKIP] 0.0.0.0 ads-sdk-api.ranfenghd.com
+  -> same as: ||ads-sdk-api.ranfenghd.com^
+[SKIP] 0.0.0.0 nex.163.com  #网易主要的广告，网易邮箱大师首页插在邮件间的广告，网易新闻的开屏广告和首页资讯流广告
+  -> same as: ||nex.163.com^
+[SKIP] 0.0.0.0 smartad.10010.com
+  -> same as: ||smartad.10010.com^
+[SKIP] 0.0.0.0 iadmusicmat.music.126.net
+  -> same as: ||iadmusicmat.music.126.net^
+[SKIP] 0.0.0.0 ad.tencentmusic.com
+  -> same as: ||ad.tencentmusic.com^
+[SKIP] 0.0.0.0 adstats.tencentmusic.com
+  -> same as: ||adstats.tencentmusic.com^
+[SKIP] 0.0.0.0 us.l.qq.com  #QQ阅读开屏广告
+  -> same as: ||us.l.qq.com^
+[SKIP] 0.0.0.0 tmeadcomm.y.qq.com
+  -> same as: ||tmeadcomm.y.qq.com^
+[SKIP] 0.0.0.0 log.kuwo.cn
+  -> same as: ||log.kuwo.cn^
+[SKIP] 0.0.0.0 mobilead.kuwo.cn
+  -> same as: ||mobilead.kuwo.cn^
+[SKIP] 0.0.0.0 adserviceretry.kugou.com
+  -> same as: ||adserviceretry.kugou.com^
+[SKIP] 0.0.0.0 ads.service.kugou.com
+  -> same as: ||ads.service.kugou.com^
+[SKIP] 0.0.0.0 adsfileretry.service.kugou.com
+  -> same as: ||adsfileretry.service.kugou.com^
+[SKIP] 0.0.0.0 adsfilebssdlbig.ali.kugou.com
+  -> same as: ||adsfilebssdlbig.ali.kugou.com^
+[SKIP] 0.0.0.0 adsfile.bssdlbig.kugou.com  #首页顶部横幅、编辑精选、我的顶部横幅图
+  -> same as: ||adsfile.bssdlbig.kugou.com^
+[SKIP] 0.0.0.0 log.stat.kugou.com
+  -> same as: ||log.stat.kugou.com^
+[SKIP] 0.0.0.0 mobilelog.kugou.com
+  -> same as: ||mobilelog.kugou.com^
+[SKIP] 0.0.0.0 log.web.kugou.com
+  -> same as: ||log.web.kugou.com^
+[SKIP] 0.0.0.0 ad.ximalaya.com
+  -> same as: ||ad.ximalaya.com^
+[SKIP] 0.0.0.0 adse.ximalaya.com
+  -> same as: ||adse.ximalaya.com^
+[SKIP] 0.0.0.0 adse.wsa.ximalaya.com
+  -> same as: ||adse.wsa.ximalaya.com^
+[SKIP] 0.0.0.0 ad.qingting.fm
+  -> same as: ||ad.qingting.fm^
+[SKIP] 0.0.0.0 cdn.hpplay.com.cn  #乐投屏
+  -> same as: ||cdn.hpplay.com.cn^
+[SKIP] 0.0.0.0 mobile.da.mgtv.com  #开屏
+  -> same as: ||mobile.da.mgtv.com^
+[SKIP] 0.0.0.0 mobaliyun.res.mgtv.com  #TV端片头
+  -> same as: ||mobaliyun.res.mgtv.com^
+[SKIP] 0.0.0.0 adxserver.ad.cmvideo.cn
+  -> same as: ||adxserver.ad.cmvideo.cn^
+[SKIP] 0.0.0.0 t7z.cupid.ptqy.gitv.tv  #电视端奇异果片头广告
+  -> same as: ||t7z.cupid.ptqy.gitv.tv^
+[SKIP] 0.0.0.0 ifacelog.iqiyi.com
+  -> same as: ||ifacelog.iqiyi.com^
+[SKIP] 0.0.0.0 mbdlog.iqiyi.com
+  -> same as: ||mbdlog.iqiyi.com^
+[SKIP] 0.0.0.0 yk-ssp.ad.youku.com
+  -> same as: ||yk-ssp.ad.youku.com^
+[SKIP] 0.0.0.0 m.atm.youku.com
+  -> same as: ||m.atm.youku.com^
+[SKIP] 0.0.0.0 ad.api.3g.youku.com
+  -> same as: ||ad.api.3g.youku.com^
+[SKIP] 0.0.0.0 ykad-data.youku.com
+  -> same as: ||ykad-data.youku.com^
+[SKIP] 0.0.0.0 youku-acs.m.taobao.com
+  -> same as: ||youku-acs.m.taobao.com^
+[SKIP] 0.0.0.0 adx-open-service.youku.com
+  -> same as: ||adx-open-service.youku.com^
+[SKIP] 0.0.0.0 pl.cp31.ott.cibntv.net  #酷喵(优酷)片头？
+  -> same as: ||pl.cp31.ott.cibntv.net^
+[SKIP] 0.0.0.0 yk-ssp-ad.cp31.ott.cibntv.net
+  -> same as: ||yk-ssp-ad.cp31.ott.cibntv.net^
+[SKIP] 0.0.0.0 sv-video.play.aiseet.atianqi.com  #云视听极光（腾讯视频TV版）片头广告，V15.9发现已失效。
+  -> same as: ||sv-video.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 andrqd.play.aiseet.atianqi.com
+  -> same as: ||andrqd.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 otheve.play.aiseet.atianqi.com
+  -> same as: ||otheve.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 aiseet.aa.atianqi.com
+  -> same as: ||aiseet.aa.atianqi.com^
+[SKIP] 0.0.0.0 livep.l.aiseet.atianqi.com
+  -> same as: ||livep.l.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 lives.l.aiseet.atianqi.com
+  -> same as: ||lives.l.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 monitor-uu.play.aiseet.atianqi.com
+  -> same as: ||monitor-uu.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 sdkconfig.play.aiseet.atianqi.com
+  -> same as: ||sdkconfig.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 tencent-dtv.m.cn.miaozhen.com
+  -> same as: ||tencent-dtv.m.cn.miaozhen.com^
+[SKIP] 0.0.0.0 omgmta.play.aiseet.atianqi.com
+  -> same as: ||omgmta.play.aiseet.atianqi.com^
+[SKIP] 0.0.0.0 video.market.xiaomi.com
+  -> same as: ||video.market.xiaomi.com^
+[SKIP] 0.0.0.0 adstore-index-1252524079.file.myqcloud.com
+  -> same as: ||adstore-index-1252524079.file.myqcloud.com^
+[SKIP] 0.0.0.0 qcwx.medproad.com
+  -> same as: ||qcwx.medproad.com^
+[SKIP] 0.0.0.0 httpdns.bcelive.com
+  -> same as: ||httpdns.bcelive.com^
+[SKIP] 0.0.0.0 log-verify.dutils.com
+  -> same as: ||log-verify.dutils.com^
+[SKIP] 0.0.0.0 m-adnet.dutils.com
+  -> same as: 0.0.0.0 m-adnet.dutils.com
+[SKIP] 0.0.0.0 beacon.qq.com
+  -> same as: ||beacon.qq.com^
+[SKIP] 0.0.0.0 beaconcdn.qq.com
+  -> same as: ||beaconcdn.qq.com^
+[SKIP] 0.0.0.0 sdk.e.qq.com
+  -> same as: ||sdk.e.qq.com^
+[SKIP] 0.0.0.0 sdkreport.e.qq.com
+  -> same as: ||sdkreport.e.qq.com^
+[SKIP] 0.0.0.0 tangram.e.qq.com
+  -> same as: ||tangram.e.qq.com^
+[SKIP] 0.0.0.0 mi.gdt.qq.com  #旧版微博国际版开屏
+  -> same as: ||mi.gdt.qq.com^
+[SKIP] 0.0.0.0 rpt.gdt.qq.com
+  -> same as: ||rpt.gdt.qq.com^
+[SKIP] 0.0.0.0 v2.gdt.qq.com
+  -> same as: ||v2.gdt.qq.com^
+[SKIP] 0.0.0.0 win.gdt.qq.com
+  -> same as: ||win.gdt.qq.com^
+[SKIP] 0.0.0.0 p.l.qq.com
+  -> same as: ||p.l.qq.com^
+[SKIP] 0.0.0.0 log.tbs.qq.com
+  -> same as: ||log.tbs.qq.com^
+[SKIP] 0.0.0.0 trace.qq.com
+  -> same as: ||trace.qq.com^
+[SKIP] 0.0.0.0 tmead.y.qq.com
+  -> same as: ||tmead.y.qq.com^
+[SKIP] 0.0.0.0 oth.str.mdt.qq.com
+  -> same as: ||oth.str.mdt.qq.com^
+[SKIP] 0.0.0.0 oth.eve.mdt.qq.com
+  -> same as: ||oth.eve.mdt.qq.com^
+[SKIP] 0.0.0.0 adsmind.gdtimg.com
+  -> same as: ||adsmind.gdtimg.com^
+[SKIP] 0.0.0.0 qzs.gdtimg.com
+  -> same as: ||qzs.gdtimg.com^
+[SKIP] 0.0.0.0 w.l.qq.com
+  -> same as: ||w.l.qq.com^
+[SKIP] 0.0.0.0 adfilter.imtt.qq.com
+  -> same as: ||adfilter.imtt.qq.com^
+[SKIP] 0.0.0.0 c2.gdt.qq.com
+  -> same as: ||c2.gdt.qq.com^
+[SKIP] 0.0.0.0 lives.l.ott.video.qq.com
+  -> same as: ||lives.l.ott.video.qq.com^
+[SKIP] 0.0.0.0 pms.mb.qq.com
+  -> same as: ||pms.mb.qq.com^
+[SKIP] 0.0.0.0 qqdata.ab.qq.com
+  -> same as: ||qqdata.ab.qq.com^
+[SKIP] 0.0.0.0 sdkconfig.video.qq.com
+  -> same as: ||sdkconfig.video.qq.com^
+[SKIP] 0.0.0.0 stat.y.qq.com
+  -> same as: ||stat.y.qq.com^
+[SKIP] 0.0.0.0 t.l.qq.com
+  -> same as: ||t.l.qq.com^
+[SKIP] 0.0.0.0 tdc.qq.com
+  -> same as: ||tdc.qq.com^
+[SKIP] 0.0.0.0 tj.b.qq.com
+  -> same as: ||tj.b.qq.com^
+[SKIP] 0.0.0.0 video.dispatch.tc.qq.com
+  -> same as: ||video.dispatch.tc.qq.com^
+[SKIP] 0.0.0.0 vlive.qqvideo.tc.qq.com
+  -> same as: ||vlive.qqvideo.tc.qq.com^
+[SKIP] 0.0.0.0 wxsnsad.tc.qq.com
+  -> same as: ||wxsnsad.tc.qq.com^
+[SKIP] 0.0.0.0 wxsnsdy.tc.qq.com
+  -> same as: ||wxsnsdy.tc.qq.com^
+[SKIP] 0.0.0.0 xc.gdt.qq.com
+  -> same as: ||xc.gdt.qq.com^
+[SKIP] 0.0.0.0 public.gdtimg.com
+  -> same as: ||public.gdtimg.com^
+[SKIP] 0.0.0.0 tmfmazu-wangka.m.qq.com  #腾讯的追踪器？
+  -> same as: ||tmfmazu-wangka.m.qq.com^
+[SKIP] 0.0.0.0 v2mi.gdt.qq.com
+  -> same as: ||v2mi.gdt.qq.com^
+[SKIP] 0.0.0.0 v3.gdt.qq.com
+  -> same as: ||v3.gdt.qq.com^
+[SKIP] 0.0.0.0 appcfg.v.qq.com
+  -> same as: ||appcfg.v.qq.com^
+[SKIP] 0.0.0.0 vd6.l.qq.com
+  -> same as: ||vd6.l.qq.com^
+[SKIP] 0.0.0.0 jpush.html5.qq.com
+  -> same as: ||jpush.html5.qq.com^
+[SKIP] 0.0.0.0 kde.qq.com  #小说的广告
+  -> same as: ||kde.qq.com^
+[SKIP] 0.0.0.0 q.i.gdt.qq.com
+  -> same as: ||q.i.gdt.qq.com^
+[SKIP] 0.0.0.0 c.gj.qq.com
+  -> same as: ||c.gj.qq.com^
+[SKIP] 0.0.0.0 ws.sj.qq.com
+  -> same as: ||ws.sj.qq.com^
+[SKIP] 0.0.0.0 tj.video.qq.com
+  -> same as: ||tj.video.qq.com^
+[SKIP] 0.0.0.0 beacon-api.aliyuncs.com
+  -> same as: ||beacon-api.aliyuncs.com^
+[SKIP] 0.0.0.0 baichuan-sdk.alicdn.com
+  -> same as: ||baichuan-sdk.alicdn.com^
+[SKIP] 0.0.0.0 baichuan-sdk.taobao.com
+  -> same as: ||baichuan-sdk.taobao.com^
+[SKIP] 0.0.0.0 cdn-ads.oss-cn-shanghai.aliyuncs.com
+  -> same as: ||cdn-ads.oss-cn-shanghai.aliyuncs.com^
+[SKIP] 0.0.0.0 cdn.ynuf.aliapp.org #云控&配置?
+  -> same as: ||cdn.ynuf.aliapp.org^
+[SKIP] 0.0.0.0 adash.man.aliyuncs.com  #阿里云-用户行为分析隐私上报
+  -> same as: 0.0.0.0 adash.man.aliyuncs.com
+[SKIP] 0.0.0.0 wcp.taobao.com  #淘宝开屏？
+  -> same as: ||wcp.taobao.com^
+[SKIP] 0.0.0.0 adashbc.ut.taobao.com
+  -> same as: ||adashbc.ut.taobao.com^
+[SKIP] 0.0.0.0 h-adashx.ut.taobao.com
+  -> same as: ||h-adashx.ut.taobao.com^
+[SKIP] 0.0.0.0 adashxgc.ut.taobao.com
+  -> same as: ||adashxgc.ut.taobao.com^
+[SKIP] 0.0.0.0 audid-api.taobao.com
+  -> same as: ||audid-api.taobao.com^
+[SKIP] 0.0.0.0 amdcopen.m.taobao.com  #阿里云内置域名解析服务
+  -> same as: ||amdcopen.m.taobao.com^
+[SKIP] 0.0.0.0 adashx.m.taobao.com
+  -> same as: ||adashx.m.taobao.com^
+[SKIP] 0.0.0.0 umengacs.m.taobao.com
+  -> same as: ||umengacs.m.taobao.com^
+[SKIP] 0.0.0.0 umengjmacs.m.taobao.com
+  -> same as: ||umengjmacs.m.taobao.com^
+[SKIP] 0.0.0.0 janapi.jd.com
+  -> same as: ||janapi.jd.com^
+[SKIP] 0.0.0.0 mapi.m.jd.com
+  -> same as: ||mapi.m.jd.com^
+[SKIP] 0.0.0.0 img2.360buyimg.com
+  -> same as: ||img2.360buyimg.com^
+[SKIP] 0.0.0.0 dsp-x.jd.com
+  -> same as: ||dsp-x.jd.com^
+[SKIP] 0.0.0.0 img-x.jd.com
+  -> same as: ||img-x.jd.com^
+[SKIP] 0.0.0.0 kepler.jd.com
+  -> same as: ||kepler.jd.com^
+[SKIP] 0.0.0.0 knicks.jd.com
+  -> same as: ||knicks.jd.com^
+[SKIP] 0.0.0.0 orbit.jd.com
+  -> same as: ||orbit.jd.com^
+[SKIP] 0.0.0.0 skdisplay.jd.com
+  -> same as: ||skdisplay.jd.com^
+[SKIP] 0.0.0.0 wn.x.jd.com
+  -> same as: ||wn.x.jd.com^
+[SKIP] 0.0.0.0 xlog.jd.com
+  -> same as: ||xlog.jd.com^
+[SKIP] 0.0.0.0 cbjs.baidu.com
+  -> same as: ||cbjs.baidu.com^
+[SKIP] 0.0.0.0 eclick.baidu.com
+  -> same as: ||eclick.baidu.com^
+[SKIP] 0.0.0.0 mtj.baidu.com
+  -> same as: ||mtj.baidu.com^
+[SKIP] 0.0.0.0 mobads.baidu.com
+  -> same as: ||mobads.baidu.com^
+[SKIP] 0.0.0.0 mobads-logs.baidu.com
+  -> same as: ||mobads-logs.baidu.com^
+[SKIP] 0.0.0.0 feed-image.baidu.com
+  -> same as: ||feed-image.baidu.com^
+[SKIP] 0.0.0.0 nadvideo2.baidu.com
+  -> same as: ||nadvideo2.baidu.com^
+[SKIP] 0.0.0.0 entry.baidu.com
+  -> same as: ||entry.baidu.com^
+[SKIP] 0.0.0.0 hmma.baidu.com
+  -> same as: ||hmma.baidu.com^
+[SKIP] 0.0.0.0 als.baidu.com  #并非贴吧签到
+  -> same as: ||als.baidu.com^
+[SKIP] 0.0.0.0 fclog.baidu.com
+  -> same as: ||fclog.baidu.com^
+[SKIP] 0.0.0.0 bes-mtj.baidu.com  #250326
+  -> same as: ||bes-mtj.baidu.com^
+[SKIP] 0.0.0.0 mobads-pre-config.cdn.bcebos.com
+  -> same as: ||mobads-pre-config.cdn.bcebos.com^
+[SKIP] 0.0.0.0 dxp.baidu.com
+  -> same as: ||dxp.baidu.com^
+[SKIP] 0.0.0.0 hm.baidu.com
+  -> same as: ||hm.baidu.com^
+[SKIP] 0.0.0.0 nsclick.baidu.com
+  -> same as: ||nsclick.baidu.com^
+[SKIP] 0.0.0.0 pos.baidu.com
+  -> same as: ||pos.baidu.com^
+[SKIP] 0.0.0.0 cpro.baidustatic.com
+  -> same as: ||cpro.baidustatic.com^
+[SKIP] 0.0.0.0 iad.g.163.com
+  -> same as: ||iad.g.163.com^
+[SKIP] 0.0.0.0 g.163.com
+  -> same as: 0.0.0.0 g.163.com
+[SKIP] 0.0.0.0 adgeo.163.com
+  -> same as: 0.0.0.0 adgeo.163.com
+[SKIP] 0.0.0.0 wbapp.mobile.sina.cn
+  -> same as: 0.0.0.0 wbapp.mobile.sina.cn
+[SKIP] 0.0.0.0 biz.weibo.com
+  -> same as: ||biz.weibo.com^
+[SKIP] 0.0.0.0 agn.aty.sohu.com
+  -> same as: ||agn.aty.sohu.com^
+[SKIP] 0.0.0.0 ad.life.360.cn  #360儿童卫士开屏
+  -> same as: ||ad.life.360.cn^
+[SKIP] 0.0.0.0 p.s.360.cn
+  -> same as: ||p.s.360.cn^
+[SKIP] 0.0.0.0 ad.iot.360.cn  #360智慧生活
+  -> same as: ||ad.iot.360.cn^
+[SKIP] 0.0.0.0 ad.jia.360.cn  #360摄像机
+  -> same as: ||ad.jia.360.cn^
+[SKIP] 0.0.0.0 c.sayhi.360.cn
+  -> same as: ||c.sayhi.360.cn^
+[SKIP] 0.0.0.0 tnc3-alisc1.bytedance.com
+  -> same as: ||tnc3-alisc1.bytedance.com^
+[SKIP] 0.0.0.0 tnc3-aliec2.bytedance.com
+  -> same as: ||tnc3-aliec2.bytedance.com^
+[SKIP] 0.0.0.0 dig.bdurl.net  #头条极速版没网
+  -> same as: ||dig.bdurl.net^
+[SKIP] 0.0.0.0 tnc3-bjlgy.bytedance.com
+  -> same as: ||tnc3-bjlgy.bytedance.com^
+[SKIP] 0.0.0.0 tnc3-alisc1.snssdk.com
+  -> same as: ||tnc3-alisc1.snssdk.com^
+[SKIP] 0.0.0.0 tnc3-aliec2.snssdk.com
+  -> same as: ||tnc3-aliec2.snssdk.com^
+[SKIP] 0.0.0.0 tnc3-bjlgy.snssdk.com
+  -> same as: ||tnc3-bjlgy.snssdk.com^
+[SKIP] 0.0.0.0 toblog.ctobsnssdk.com
+  -> same as: ||toblog.ctobsnssdk.com^
+[SKIP] 0.0.0.0 open.snssdk.com
+  -> same as: ||open.snssdk.com^
+[SKIP] 0.0.0.0 abtest-ch.snssdk.com
+  -> same as: ||abtest-ch.snssdk.com^
+[SKIP] 0.0.0.0 sf16-static.i18n-pglstatp.com
+  -> same as: ||sf16-static.i18n-pglstatp.com^
+[SKIP] 0.0.0.0 ad.toutiao.com
+  -> same as: ||ad.toutiao.com^
+[SKIP] 0.0.0.0 dm.toutiao.com
+  -> same as: ||dm.toutiao.com^
+[SKIP] 0.0.0.0 monsetting.toutiao.com
+  -> same as: ||monsetting.toutiao.com^
+[SKIP] 0.0.0.0 api-access.pangolin-sdk-toutiao.com
+  -> same as: ||api-access.pangolin-sdk-toutiao.com^
+[SKIP] 0.0.0.0 api-access.pangolin-sdk-toutiao1.com
+  -> same as: ||api-access.pangolin-sdk-toutiao1.com^
+[SKIP] 0.0.0.0 gromore.pangolin-sdk-toutiao.com
+  -> same as: ||gromore.pangolin-sdk-toutiao.com^
+[SKIP] 0.0.0.0 log-api.pangolin-sdk-toutiao.com
+  -> same as: ||log-api.pangolin-sdk-toutiao.com^
+[SKIP] 0.0.0.0 api-access.pangolin-sdk-toutiao-b.com
+  -> same as: ||api-access.pangolin-sdk-toutiao-b.com^
+[SKIP] 0.0.0.0 log-api.pangolin-sdk-toutiao-b.com
+  -> same as: ||log-api.pangolin-sdk-toutiao-b.com^
+[SKIP] 0.0.0.0 p3-be-pack-sign.pglstatp-toutiao.com
+  -> same as: ||p3-be-pack-sign.pglstatp-toutiao.com^
+[SKIP] 0.0.0.0 p6-be-pack-sign.pglstatp-toutiao.com
+  -> same as: ||p6-be-pack-sign.pglstatp-toutiao.com^
+[SKIP] 0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
+  -> same as: ||sf3-fe-tos.pglstatp-toutiao.com^
+[SKIP] 0.0.0.0 lf3-ad-union-sdk.pglstatp-toutiao.com
+  -> same as: ||lf3-ad-union-sdk.pglstatp-toutiao.com^
+[SKIP] 0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com
+  -> same as: ||lf6-ad-union-sdk.pglstatp-toutiao.com^
+[SKIP] 0.0.0.0 ad.zijieapi.com
+  -> same as: ||ad.zijieapi.com^
+[SKIP] 0.0.0.0 ads5-normal.zijieapi.com
+  -> same as: ||ads5-normal.zijieapi.com^
+[SKIP] 0.0.0.0 ads3-normal-hl.zijieapi.com
+  -> same as: ||ads3-normal-hl.zijieapi.com^
+[SKIP] 0.0.0.0 ads3-normal-lf.zijieapi.com
+  -> same as: ||ads3-normal-lf.zijieapi.com^
+[SKIP] 0.0.0.0 ads3-normal-lq.zijieapi.com
+  -> same as: ||ads3-normal-lq.zijieapi.com^
+[SKIP] 0.0.0.0 ads3-normal.zijieapi.com
+  -> same as: ||ads3-normal.zijieapi.com^
+[SKIP] 0.0.0.0 ads5-normal-hl.zijieapi.com
+  -> same as: ||ads5-normal-hl.zijieapi.com^
+[SKIP] 0.0.0.0 ads5-normal-lf.zijieapi.com
+  -> same as: ||ads5-normal-lf.zijieapi.com^
+[SKIP] 0.0.0.0 ads5-normal-lq.zijieapi.com
+  -> same as: ||ads5-normal-lq.zijieapi.com^
+[SKIP] 0.0.0.0 applog.zijieapi.com
+  -> same as: ||applog.zijieapi.com^
+[SKIP] 0.0.0.0 log.zijieapi.com
+  -> same as: ||log.zijieapi.com^
+[SKIP] 0.0.0.0 mcs.zijieapi.com
+  -> same as: ||mcs.zijieapi.com^
+[SKIP] 0.0.0.0 mssdk.zijieapi.com
+  -> same as: ||mssdk.zijieapi.com^
+[SKIP] 0.0.0.0 tnc0-aliec2.zijieapi.com
+  -> same as: ||tnc0-aliec2.zijieapi.com^
+[SKIP] 0.0.0.0 tnc0-bjlgy.zijieapi.com
+  -> same as: ||tnc0-bjlgy.zijieapi.com^
+[SKIP] 0.0.0.0 tnc3-aliec2.zijieapi.com
+  -> same as: ||tnc3-aliec2.zijieapi.com^
+[SKIP] 0.0.0.0 tnc3-alisc1.zijieapi.com
+  -> same as: ||tnc3-alisc1.zijieapi.com^
+[SKIP] 0.0.0.0 tnc3-bjlgy.zijieapi.com
+  -> same as: ||tnc3-bjlgy.zijieapi.com^
+[SKIP] 0.0.0.0 mores.toponad.com
+  -> same as: ||mores.toponad.com^
+[SKIP] 0.0.0.0 p66-ad.adkwai.com
+  -> same as: ||p66-ad.adkwai.com^
+[SKIP] 0.0.0.0 p1-lm.adkwai.com
+  -> same as: ||p1-lm.adkwai.com^
+[SKIP] 0.0.0.0 p2-lm.adkwai.com
+  -> same as: ||p2-lm.adkwai.com^
+[SKIP] 0.0.0.0 p3-lm.adkwai.com
+  -> same as: ||p3-lm.adkwai.com^
+[SKIP] 0.0.0.0 open.e.kuaishou.com
+  -> same as: ||open.e.kuaishou.com^
+[SKIP] 0.0.0.0 open.e.kuaishou.cn
+  -> same as: ||open.e.kuaishou.cn^
+[SKIP] 0.0.0.0 ali-ad.a.yximgs.com
+  -> same as: ||ali-ad.a.yximgs.com^
+[SKIP] 0.0.0.0 tx-ad.a.yximgs.com
+  -> same as: ||tx-ad.a.yximgs.com^
+[SKIP] 0.0.0.0 v2-ad.video.yximgs.com
+  -> same as: ||v2-ad.video.yximgs.com^
+[SKIP] 0.0.0.0 w1.kskwai.com
+  -> same as: ||w1.kskwai.com^
+[SKIP] 0.0.0.0 ad.partner.gifshow.com
+  -> same as: ||ad.partner.gifshow.com^
+[SKIP] 0.0.0.0 gdfp.gifshow.com
+  -> same as: ||gdfp.gifshow.com^
+[SKIP] 0.0.0.0 log-sdk.gifshow.com
+  -> same as: ||log-sdk.gifshow.com^
+[SKIP] 0.0.0.0 ulog-sdk.gifshow.com
+  -> same as: ||ulog-sdk.gifshow.com^
+[SKIP] 0.0.0.0 open.kwaizt.com
+  -> same as: ||open.kwaizt.com^
+[SKIP] 0.0.0.0 open.kuaishouzt.com
+  -> same as: ||open.kuaishouzt.com^
+[SKIP] 0.0.0.0 api.e.kuaishou.com  #快影开屏
+  -> same as: ||api.e.kuaishou.com^
+[SKIP] 0.0.0.0 w1.kskwai.com   #↓cdn
+  -> same as: ||w1.kskwai.com^
+[SKIP] 0.0.0.0 w2.kskwai.com
+  -> same as: 0.0.0.0 w2.kskwai.com
+[SKIP] 0.0.0.0 w1.gskwai.com
+  -> same as: ||w1.gskwai.com^
+[SKIP] 0.0.0.0 promotion-partner.kuaishou.com
+  -> same as: ||promotion-partner.kuaishou.com^
+[SKIP] 0.0.0.0 applog.uc.cn
+  -> same as: ||applog.uc.cn^
+[SKIP] 0.0.0.0 track.uc.cn
+  -> same as: ||track.uc.cn^
+[SKIP] 0.0.0.0 image-ad.sm.cn
+  -> same as: ||image-ad.sm.cn^
+[SKIP] 0.0.0.0 huichuan.sm.cn
+  -> same as: ||huichuan.sm.cn^
+[SKIP] 0.0.0.0 huichuan-mc.sm.cn
+  -> same as: ||huichuan-mc.sm.cn^
+[SKIP] 0.0.0.0 samsungads.com
+  -> same as: ||samsungads.com^
+[SKIP] 0.0.0.0 api-adservices.apple.com
+  -> same as: ||api-adservices.apple.com^
+[SKIP] 0.0.0.0 iadsdk.apple.com
+  -> same as: ||iadsdk.apple.com^
+[SKIP] 0.0.0.0 advertising.apple.com
+  -> same as: ||advertising.apple.com^
+[SKIP] 0.0.0.0 adx.ads.oppomobile.com
+  -> same as: ||adx.ads.oppomobile.com^
+[SKIP] 0.0.0.0 bdapi.ads.oppomobile.com
+  -> same as: ||bdapi.ads.oppomobile.com^
+[SKIP] 0.0.0.0 data.ads.oppomobile.com
+  -> same as: ||data.ads.oppomobile.com^
+[SKIP] 0.0.0.0 adsfs.oppomobile.com
+  -> same as: ||adsfs.oppomobile.com^
+[SKIP] 0.0.0.0 adx.ads.heytapmobi.com  #据说是浏览器下载推荐
+  -> same as: ||adx.ads.heytapmobi.com^
+[SKIP] 0.0.0.0 adsfs.heytapimage.com
+  -> same as: ||adsfs.heytapimage.com^
+[SKIP] 0.0.0.0 adsfs-sdkconfig.heytapimage.com
+  -> same as: ||adsfs-sdkconfig.heytapimage.com^
+[SKIP] 0.0.0.0 uapi.ads.heytapmobi.com
+  -> same as: ||uapi.ads.heytapmobi.com^
+[SKIP] 0.0.0.0 b1-data.ads.heytapmobi.com
+  -> same as: ||b1-data.ads.heytapmobi.com^
+[SKIP] 0.0.0.0 stg-data.ads.heytapmobi.com  #安装界面广告
+  -> same as: ||stg-data.ads.heytapmobi.com^
+[SKIP] 0.0.0.0 ads-marketing-vivofs.vivo.com.cn
+  -> same as: ||ads-marketing-vivofs.vivo.com.cn^
+[SKIP] 0.0.0.0 adsdk.vivo.com.cn
+  -> same as: ||adsdk.vivo.com.cn^
+[SKIP] 0.0.0.0 adxlog-adnet.vivo.com.cn
+  -> same as: ||adxlog-adnet.vivo.com.cn^
+[SKIP] 0.0.0.0 api.ad.xiaomi.com
+  -> same as: ||api.ad.xiaomi.com^
+[SKIP] 0.0.0.0 diagnosis.ad.xiaomi.com
+  -> same as: ||diagnosis.ad.xiaomi.com^
+[SKIP] 0.0.0.0 e.ad.xiaomi.com
+  -> same as: ||e.ad.xiaomi.com^
+[SKIP] 0.0.0.0 log.ad.xiaomi.com
+  -> same as: ||log.ad.xiaomi.com^
+[SKIP] 0.0.0.0 zeus.ad.xiaomi.com
+  -> same as: ||zeus.ad.xiaomi.com^
+[SKIP] 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+  -> same as: ||sdkconfig.ad.intl.xiaomi.com^
+[SKIP] 0.0.0.0 sdkconfig.ad.xiaomi.com
+  -> same as: ||sdkconfig.ad.xiaomi.com^
+[SKIP] 0.0.0.0 test.ad.xiaomi.com
+  -> same as: ||test.ad.xiaomi.com^
+[SKIP] 0.0.0.0 test.e.ad.xiaomi.com
+  -> same as: ||test.e.ad.xiaomi.com^
+[SKIP] 0.0.0.0 tracking.miui.com
+  -> same as: ||tracking.miui.com^
+[SKIP] 0.0.0.0 api.installer.xiaomi.com
+  -> same as: ||api.installer.xiaomi.com^
+[SKIP] 0.0.0.0 adv.sec.miui.com
+  -> same as: ||adv.sec.miui.com^
+[SKIP] 0.0.0.0 update.avlyun.sec.miui.com
+  -> same as: ||update.avlyun.sec.miui.com^
+[SKIP] 0.0.0.0 ixav-cse.avlyun.com
+  -> same as: ||ixav-cse.avlyun.com^
+[SKIP] 0.0.0.0 logupdate.avlyun.sec.miui.com
+  -> same as: ||logupdate.avlyun.sec.miui.com^
+[SKIP] 0.0.0.0 miui-fxcse.avlyun.com
+  -> same as: ||miui-fxcse.avlyun.com^
+[SKIP] 0.0.0.0 sdkconf.avlyun.com
+  -> same as: ||sdkconf.avlyun.com^
+[SKIP] 0.0.0.0 sdkconf.avlyun.com
+  -> same as: ||sdkconf.avlyun.com^
+[SKIP] 0.0.0.0 miav-cse.avlyun.com
+  -> same as: ||miav-cse.avlyun.com^
+[SKIP] 0.0.0.0 miav-cse.avlyun.com
+  -> same as: ||miav-cse.avlyun.com^
+[SKIP] 0.0.0.0 bingads.microsoft.com
+  -> same as: ||bingads.microsoft.com^
+[SKIP] 0.0.0.0 lh3.googleadsserving.cn
+  -> same as: ||lh3.googleadsserving.cn^
+[SKIP] 0.0.0.0 google-analytics.com
+  -> same as: ||google-analytics.com^
+[SKIP] 0.0.0.0 adservice.google.com
+  -> same as: ||adservice.google.com^
+[SKIP] 0.0.0.0 googleadservices.com
+  -> same as: ||googleadservices.com^
+[SKIP] 0.0.0.0 pagead2.googleadservices.com
+  -> same as: ||pagead2.googleadservices.com^
+[SKIP] 0.0.0.0 pagead2.googlesyndication.com
+  -> same as: ||pagead2.googlesyndication.com^
+[SKIP] 0.0.0.0 tpc.googlesyndication.com
+  -> same as: ||tpc.googlesyndication.com^
+[SKIP] 0.0.0.0 afs.googlesyndication.com
+  -> same as: ||afs.googlesyndication.com^
+[SKIP] 0.0.0.0 ogads-pa.clients6.google.com
+  -> same as: ||ogads-pa.clients6.google.com^
+[SKIP] 0.0.0.0 firebaselogging-pa.googleapis.com
+  -> same as: ||firebaselogging-pa.googleapis.com^
+[SKIP] 0.0.0.0 ad.doubleclick.net
+  -> same as: ||ad.doubleclick.net^
+[SKIP] 0.0.0.0 googleads.g.doubleclick.net
+  -> same as: ||googleads.g.doubleclick.net^
+[SKIP] 0.0.0.0 securepubads.g.doubleclick.net
+  -> same as: ||securepubads.g.doubleclick.net^
+[SKIP] 0.0.0.0 ads.youtube.com
+  -> same as: ||ads.youtube.com^
+[SKIP] 0.0.0.0 an.facebook.com
+  -> same as: ||an.facebook.com^
+[SKIP] 0.0.0.0 ads-api.twitter.com
+  -> same as: ||ads-api.twitter.com^
+[SKIP] 0.0.0.0 static.ads-twitter.com
+  -> same as: ||static.ads-twitter.com^
+[SKIP] 0.0.0.0 pixon.ads-pixiv.net
+  -> same as: ||pixon.ads-pixiv.net^
+[SKIP] 0.0.0.0 adstudio-assets.scdn.co
+  -> same as: ||adstudio-assets.scdn.co^
+[SKIP] 0.0.0.0 ads.pubmatic.com
+  -> same as: ||ads.pubmatic.com^
+[SKIP] 0.0.0.0 s.amazon-adsystem.com
+  -> same as: ||s.amazon-adsystem.com^
+[SKIP] 0.0.0.0 adserver.unityads.unity3d.com
+  -> same as: ||adserver.unityads.unity3d.com^
+[SKIP] 0.0.0.0 auction.unityads.unity3d.com
+  -> same as: ||auction.unityads.unity3d.com^
+[SKIP] 0.0.0.0 config.unityads.unity3d.com
+  -> same as: ||config.unityads.unity3d.com^
+[SKIP] 0.0.0.0 webview.unityads.unity3d.com
+  -> same as: ||webview.unityads.unity3d.com^
+[SKIP] 0.0.0.0 cdn.iads.unitychina.cn
+  -> same as: ||cdn.iads.unitychina.cn^
+[SKIP] 0.0.0.0 o-sdk.mediation.unity3d.com
+  -> same as: ||o-sdk.mediation.unity3d.com^
+[SKIP] 0.0.0.0 advertising.yahoo.com
+  -> same as: ||advertising.yahoo.com^
+[SKIP] 0.0.0.0 gemini.yahoo.com
+  -> same as: ||gemini.yahoo.com^
+[SKIP] 0.0.0.0 geo.yahoo.com
+  -> same as: ||geo.yahoo.com^
+[SKIP] 0.0.0.0 analytics.query.yahoo.com
+  -> same as: ||analytics.query.yahoo.com^
+[SKIP] 0.0.0.0 flurry.com
+  -> same as: ||flurry.com^
+[SKIP] 0.0.0.0 event.tradplusad.com
+  -> same as: ||event.tradplusad.com^
+[SKIP] 0.0.0.0 bcp.crwdcntrl.net
+  -> same as: 0.0.0.0 bcp.crwdcntrl.net
+[SKIP] 0.0.0.0 prod-mediate-events.applovin.com
+  -> same as: ||prod-mediate-events.applovin.com^
+[SKIP] 0.0.0.0 res1.applovin.com
+  -> same as: ||res1.applovin.com^
+[SKIP] 0.0.0.0 ms4.applovin.com
+  -> same as: ||ms4.applovin.com^
+[SKIP] 0.0.0.0 ms.applovin.com
+  -> same as: ||ms.applovin.com^
+[SKIP] 0.0.0.0 d.applovin.com
+  -> same as: ||d.applovin.com^
+[SKIP] 0.0.0.0 rt.applovin.com
+  -> same as: ||rt.applovin.com^
+[SKIP] 0.0.0.0 applovin.com
+  -> same as: ||applovin.com^
+[SKIP] 0.0.0.0 et-eus.w.inmobi.com
+  -> same as: ||et-eus.w.inmobi.com^
+[SKIP] 0.0.0.0 ads.inmobi.com
+  -> same as: ||ads.inmobi.com^
+[SKIP] 0.0.0.0 telemetry.sdk.inmobi.com
+  -> same as: ||telemetry.sdk.inmobi.com^
+[SKIP] 0.0.0.0 config.inmobi.com
+  -> same as: ||config.inmobi.com^
+[SKIP] 0.0.0.0 impression.appsflyer.com
+  -> same as: ||impression.appsflyer.com^
+[SKIP] 0.0.0.0 d.applvn.com
+  -> same as: ||d.applvn.com^
+[SKIP] 0.0.0.0 ms.applvn.com
+  -> same as: ||ms.applvn.com^
+[SKIP] 0.0.0.0 rt.applvn.com
+  -> same as: ||rt.applvn.com^
+[SKIP] 0.0.0.0 ad.hpplay.cn
+  -> same as: ||ad.hpplay.cn^
+[SKIP] 0.0.0.0 adc.hpplay.cn
+  -> same as: ||adc.hpplay.cn^
+[SKIP] 0.0.0.0 adcdn.hpplay.cn
+  -> same as: ||adcdn.hpplay.cn^
+[SKIP] 0.0.0.0 adeng.hpplay.cn
+  -> same as: ||adeng.hpplay.cn^
+[SKIP] 0.0.0.0 ads.icloseli.cn
+  -> same as: ||ads.icloseli.cn^
+[SKIP] 0.0.0.0 c.bidtoolads.com
+  -> same as: ||c.bidtoolads.com^
+[SKIP] 0.0.0.0 api.yfanads.com
+  -> same as: ||api.yfanads.com^
+[SKIP] 0.0.0.0 aaid.umeng.com
+  -> same as: ||aaid.umeng.com^
+[SKIP] 0.0.0.0 alog.umeng.com
+  -> same as: ||alog.umeng.com^
+[SKIP] 0.0.0.0 alogus.umeng.com
+  -> same as: ||alogus.umeng.com^
+[SKIP] 0.0.0.0 audid.umeng.com
+  -> same as: ||audid.umeng.com^
+[SKIP] 0.0.0.0 ccs.umeng.com
+  -> same as: ||ccs.umeng.com^
+[SKIP] 0.0.0.0 cnlogs.umeng.com
+  -> same as: ||cnlogs.umeng.com^
+[SKIP] 0.0.0.0 ocx.umeng.com
+  -> same as: 0.0.0.0 ocx.umeng.com
+[SKIP] 0.0.0.0 plbslog.umeng.com
+  -> same as: ||plbslog.umeng.com^
+[SKIP] 0.0.0.0 resolve.umeng.com
+  -> same as: ||resolve.umeng.com^
+[SKIP] 0.0.0.0 ulogs.umeng.com
+  -> same as: ||ulogs.umeng.com^
+[SKIP] 0.0.0.0 aspect-upush.umeng.com
+  -> same as: ||aspect-upush.umeng.com^
+[SKIP] 0.0.0.0 utoken.umeng.com
+  -> same as: ||utoken.umeng.com^
+[SKIP] 0.0.0.0 cnlogs.umengcloud.com
+  -> same as: ||cnlogs.umengcloud.com^
+[SKIP] 0.0.0.0 ex.umengcloud.com
+  -> same as: 0.0.0.0 ex.umengcloud.com
+[SKIP] 0.0.0.0 ulogs.umengcloud.com
+  -> same as: ||ulogs.umengcloud.com^
+[SKIP] 0.0.0.0 tdsdk.xdrig.com
+  -> same as: ||tdsdk.xdrig.com^
+[SKIP] 0.0.0.0 api.anythinktech.com
+  -> same as: ||api.anythinktech.com^
+[SKIP] 0.0.0.0 adx-bj.anythinktech.com
+  -> same as: ||adx-bj.anythinktech.com^
+[SKIP] 0.0.0.0 adx-bj-req.anythinktech.com
+  -> same as: ||adx-bj-req.anythinktech.com^
+[SKIP] 0.0.0.0 adx-cn.anythinktech.com
+  -> same as: ||adx-cn.anythinktech.com^
+[SKIP] 0.0.0.0 cn-api.anythinktech.com
+  -> same as: ||cn-api.anythinktech.com^
+[SKIP] 0.0.0.0 da.anythinktech.com
+  -> same as: ||da.anythinktech.com^
+[SKIP] 0.0.0.0 tk.anythinktech.com
+  -> same as: ||tk.anythinktech.com^
+[SKIP] 0.0.0.0 api-gd.hiaiabc.com
+  -> same as: ||api-gd.hiaiabc.com^
+[SKIP] 0.0.0.0 log-verify.hiaiabc.com
+  -> same as: ||log-verify.hiaiabc.com^
+[SKIP] 0.0.0.0 msdk.voiceads.cn
+  -> same as: ||msdk.voiceads.cn^
+[SKIP] 0.0.0.0 rtb.voiceads.cn
+  -> same as: ||rtb.voiceads.cn^
+[SKIP] 0.0.0.0 cdn.aiclk.com
+  -> same as: ||cdn.aiclk.com^
+[SKIP] 0.0.0.0 cpc-service-square.aiclk.com
+  -> same as: ||cpc-service-square.aiclk.com^
+[SKIP] 0.0.0.0 cpc-service-square.aiclk.com
+  -> same as: ||cpc-service-square.aiclk.com^
+[SKIP] 0.0.0.0 logrcv.aiclk.com
+  -> same as: ||logrcv.aiclk.com^
+[SKIP] 0.0.0.0 oss.cdn.aiclk.com
+  -> same as: ||oss.cdn.aiclk.com^
+[SKIP] 0.0.0.0 tracelog-debug.aiclk.com
+  -> same as: ||tracelog-debug.aiclk.com^
+[SKIP] 0.0.0.0 update0.aiclk.com
+  -> same as: ||update0.aiclk.com^
+[SKIP] 0.0.0.0 usr-api.aiclk.com
+  -> same as: ||usr-api.aiclk.com^
+[SKIP] 0.0.0.0 g.dtv.cn.miaozhen.com
+  -> same as: ||g.dtv.cn.miaozhen.com^
+[SKIP] 0.0.0.0 tytx.m.cn.miaozhen.com
+  -> same as: ||tytx.m.cn.miaozhen.com^
+[SKIP] 0.0.0.0 qq.irs01.com
+  -> same as: 0.0.0.0 qq.irs01.com
+[SKIP] 0.0.0.0 ifs.tanx.com  #据说影响闲鱼签到，可我测试没影响
+  -> same as: ||ifs.tanx.com^
+[SKIP] 0.0.0.0 ef-dongfeng.tanx.com
+  -> same as: ||ef-dongfeng.tanx.com^
+[SKIP] 0.0.0.0 api-htp.beizi.biz
+  -> same as: ||api-htp.beizi.biz^
+[SKIP] 0.0.0.0 sdk.beizi.biz
+  -> same as: ||sdk.beizi.biz^
+[SKIP] 0.0.0.0 sdk.1rtb.net  #pu口袋校园
+  -> same as: ||sdk.1rtb.net^
+[SKIP] 0.0.0.0 adx-saas.advlion.com
+  -> same as: ||adx-saas.advlion.com^
+[SKIP] 0.0.0.0 bj-td-menta-01-callback.advlion.com
+  -> same as: ||bj-td-menta-01-callback.advlion.com^
+[SKIP] 0.0.0.0 s1.cdn-sg.advlion.com
+  -> same as: ||s1.cdn-sg.advlion.com^
+[SKIP] 0.0.0.0 analytics.oceanengine.com
+  -> same as: ||analytics.oceanengine.com^
+[SKIP] 0.0.0.0 ad.oceanengine.com
+  -> same as: 0.0.0.0 ad.oceanengine.com
+[SKIP] 0.0.0.0 v.adx.hubcloud.com.cn
+  -> same as: ||v.adx.hubcloud.com.cn^
+[SKIP] 0.0.0.0 api.htp.hubcloud.com.cn
+  -> same as: ||api.htp.hubcloud.com.cn^
+[SKIP] 0.0.0.0 res1.hubcloud.com.cn
+  -> same as: ||res1.hubcloud.com.cn^
+[SKIP] 0.0.0.0 sdktmp.hubcloud.com.cn
+  -> same as: ||sdktmp.hubcloud.com.cn^
+[SKIP] 0.0.0.0 ad.gameley.com
+  -> same as: ||ad.gameley.com^
+[SKIP] 0.0.0.0 adservice.sigmob.cn
+  -> same as: ||adservice.sigmob.cn^
+[SKIP] 0.0.0.0 dc.sigmob.cn
+  -> same as: ||dc.sigmob.cn^
+[SKIP] 0.0.0.0 v.adintl.cn
+  -> same as: ||v.adintl.cn^
+[SKIP] 0.0.0.0 tk.vlion.cn
+  -> same as: 0.0.0.0 tk.vlion.cn
+[SKIP] 0.0.0.0 mssdk.volces.com  #火山引擎
+  -> same as: ||mssdk.volces.com^
+[SKIP] 0.0.0.0 klink.volceapplog.com
+  -> same as: ||klink.volceapplog.com^
+[SKIP] 0.0.0.0 sdk.mobads.adwangmai.com
+  -> same as: ||sdk.mobads.adwangmai.com^
+[SKIP] 0.0.0.0 sdk.adx.adwangmai.com
+  -> same as: ||sdk.adx.adwangmai.com^
+[SKIP] 0.0.0.0 tdsdk.cpatrk.net
+  -> same as: ||tdsdk.cpatrk.net^
+[SKIP] 0.0.0.0 aem.dentsuchina.cn
+  -> same as: ||aem.dentsuchina.cn^
+[SKIP] 0.0.0.0 adtracker.medproad.com
+  -> same as: ||adtracker.medproad.com^
+[SKIP] 0.0.0.0 img.adprod.cn
+  -> same as: 0.0.0.0 img.adprod.cn
+[SKIP] 0.0.0.0 adx.sogaha.cn
+  -> same as: ||adx.sogaha.cn^
+[SKIP] 0.0.0.0 sdkcfg.adintl.cn
+  -> same as: 0.0.0.0 sdkcfg.adintl.cn
+[SKIP] 0.0.0.0 c.etoolads.cn  #从百度网盘抓出
+  -> same as: ||c.etoolads.cn^
+[SKIP] 0.0.0.0 sv.adintl.cn
+  -> same as: 0.0.0.0 sv.adintl.cn
+[SKIP] 0.0.0.0 ads-drcn.platform.hihonorcloud.com  #华为云的
+  -> same as: 0.0.0.0 ads-drcn.platform.hihonorcloud.com
+[SKIP] 0.0.0.0 g-adnet.hiaiabc.com
+  -> same as: ||g-adnet.hiaiabc.com^
+[SKIP] 0.0.0.0 m-adnet.hiaiabc.com  #转转用
+  -> same as: ||m-adnet.hiaiabc.com^
+[SKIP] 0.0.0.0 adx.maplehaze.cn
+  -> same as: 0.0.0.0 adx.maplehaze.cn
+[SKIP] 0.0.0.0 adapi.izuiyou.com  #皮皮虾
+  -> same as: ||adapi.izuiyou.com^
+[SKIP] 0.0.0.0 adstat.izuiyou.com  #皮皮虾
+  -> same as: ||adstat.izuiyou.com^
+[SKIP] 0.0.0.0 api-ad.kajicam.com
+  -> same as: ||api-ad.kajicam.com^
+[SKIP] 0.0.0.0 ad.shunchangzhixing.com  #两步路
+  -> same as: ||ad.shunchangzhixing.com^
+[SKIP] 0.0.0.0 ads.zhinengxiyifang.cn
+  -> same as: ||ads.zhinengxiyifang.cn^
+[SKIP] 0.0.0.0 sdk.aqyad.com
+  -> same as: ||sdk.aqyad.com^
+[SKIP] 0.0.0.0 trace.aqyad.com
+  -> same as: ||trace.aqyad.com^
+[SKIP] 0.0.0.0 volc.bj.ad.track.66mobi.com
+  -> same as: ||volc.bj.ad.track.66mobi.com^
+[SKIP] 0.0.0.0 ads.mykudou.com
+  -> same as: 0.0.0.0 ads.mykudou.com
+[SKIP] ||ubixioe.com^$important
+  -> same as: ||ubixioe.com^
+[SKIP] ||adintl.cn^$important
+  -> same as: ||adintl.cn^
+[SKIP] ||adashx.m.taobao.com^$important
+  -> same as: ||adashx.m.taobao.com^
+[SKIP] ||adsehera.ximalaya.com^$important
+  -> same as: 0.0.0.0 adsehera.ximalaya.com
+[SKIP] ||adbehaviorhera.ximalaya.com^$important
+  -> same as: 0.0.0.0 adbehaviorhera.ximalaya.com
+[SKIP] ||ggx01.miguvideo.com^$important
+  -> same as: ||ggx01.miguvideo.com^
+[SKIP] ||tianshu.gtimg.cn^$important
+  -> same as: 0.0.0.0 tianshu.gtimg.cn  #顶部横幅广告图片，误杀签到打卡后的图片
+[SKIP] ||s.bdstatic.com^$important
+  -> same as: 0.0.0.0 s.bdstatic.com
+[SKIP] ||ada.baidu.com^$important
+  -> same as: 0.0.0.0 ada.baidu.com  #竞价推广？
+[SKIP] ||hpd.baidu.com^$important
+  -> same as: 0.0.0.0 hpd.baidu.com
+[SKIP] ||fclick.baidu.com^$important
+  -> same as: 0.0.0.0 fclick.baidu.com
+[SKIP] ||wup.imtt.qq.com^$important
+  -> same as: 0.0.0.0 wup.imtt.qq.com
+[SKIP] ||tmfmazuhttp-wangka.m.qq.com^$important
+  -> same as: 0.0.0.0 tmfmazuhttp-wangka.m.qq.com
+[SKIP] ||ug.qbimg.qq.com^$important
+  -> same as: 0.0.0.0 ug.qbimg.qq.com  #开屏和首页下面的弹出式伸缩的广告图。
+[SKIP] ||mcdn.kandian.qq.com^$important
+  -> same as: 0.0.0.0 mcdn.kandian.qq.com  #开屏
+[SKIP] ||log-sdk.ksapisrv.com^$important
+  -> same as: ||log-sdk.ksapisrv.com^
+[SKIP] ||open.kuaishouzt.com^$important
+  -> same as: ||open.kuaishouzt.com^
+[SKIP] ||frontend-perf-service.e.kuaishou.com^$important
+  -> same as: ||frontend-perf-service.e.kuaishou.com^
+[SKIP] ||doubleclick.net^$important
+  -> same as: 0.0.0.0 doubleclick.net
+[SKIP] ||staticsns.cdn.bcebos.com^$important
+  -> same as: 0.0.0.0 staticsns.cdn.bcebos.com
+[SKIP] ||dss0.bdstatic.com^$important
+  -> same as: 0.0.0.0 dss0.bdstatic.com
+[SKIP] ||apidns.kwd.inkuai.com^$important
+  -> same as: 0.0.0.0 apidns.kwd.inkuai.com
+[SKIP] ||dns.qq.com^$important
+  -> same as: 0.0.0.0 dns.qq.com
+[SKIP] ||doh.dns.apple.com^$important
+  -> same as: 0.0.0.0 doh.dns.apple.com
+[SKIP] ||doh.ptqy.gitv.tv^$important
+  -> same as: 0.0.0.0 doh.ptqy.gitv.tv
+[SKIP] ||dns.qiyipic.iqiyi.com^$important
+  -> same as: 0.0.0.0 dns.qiyipic.iqiyi.com
+[SKIP] ||dns.weibo.cn^$important
+  -> same as: 0.0.0.0 dns.weibo.cn
+[SKIP] ||dns.jd.com^$important
+  -> same as: 0.0.0.0 dns.jd.com
+[SKIP] ||dns.m.sm.cn^$important
+  -> same as: 0.0.0.0 dns.m.sm.cn
+[SKIP] ||doh.iqiyi.com^$important
+  -> same as: 0.0.0.0 doh.iqiyi.com
+[SKIP] ||nstool.netease.com^$important
+  -> same as: 0.0.0.0 nstool.netease.com
+[SKIP] ||lp.pinduoduo.com^$important
+  -> same as: 0.0.0.0 lp.pinduoduo.com
+[SKIP] ||gecko5-lq.zijieapi.com^$important
+  -> same as: 0.0.0.0 gecko5-lq.zijieapi.com
+[SKIP] ||zlink.toutiao.com^$important
+  -> same as: 0.0.0.0 zlink.toutiao.com
+[SKIP] ||adim.pinduoduo.com^$important
+  -> same as: 0.0.0.0 adim.pinduoduo.com
+[SKIP] ||lf-cdn-tos.bytescm.com^$important
+  -> same as: 0.0.0.0 lf-cdn-tos.bytescm.com
+[SKIP] ||pitaya.bytedance.com^$important
+  -> same as: 0.0.0.0 pitaya.bytedance.com
+[SKIP] ||sdkapp.uve.weibo.com^$important
+  -> same as: ||sdkapp.uve.weibo.com^
+[SKIP] ||down.apps.sina.cn^$important
+  -> same as: 0.0.0.0 down.apps.sina.cn
+[SKIP] ||bootpreload.uve.weibo.com^$important
+  -> same as: ||bootpreload.uve.weibo.com^
+[SKIP] ||adimg.uve.weibo.com^$important
+  -> same as: ||adimg.uve.weibo.com^
+[SKIP] ||data-sdk-uuid-log.d.meituan.net^$important
+  -> same as: ||data-sdk-uuid-log.d.meituan.net^
+[SKIP] ||domob.cn^$important
+  -> same as: 0.0.0.0 domob.cn
+[SKIP] ||api.ssp.xcultur.com^$important
+  -> same as: ||api.ssp.xcultur.com^
+[SKIP] ||adproxy.autohome.com.cn^$important
+  -> same as: 0.0.0.0 adproxy.autohome.com.cn
+[SKIP] ||c.autohome.com.cn^$important
+  -> same as: 0.0.0.0 c.autohome.com.cn
+[SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+  -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
+[SKIP] ||adn.tapapis.cn^$important
+  -> same as: 0.0.0.0 adn.tapapis.cn
+[SKIP] ||zhangyuyidong.cn^$important
+  -> same as: ||zhangyuyidong.cn^
+[SKIP] ||medproad.com^$important
+  -> same as: ||medproad.com^
+[SKIP] ||vlion.cn^$important
+  -> same as: ||vlion.cn^
+[SKIP] ||bc-ad-vod.zdmimg.com^$important
+  -> same as: 0.0.0.0 bc-ad-vod.zdmimg.com
+[SKIP] ||acs4baichuan.m.taobao.com^$important
+  -> same as: 0.0.0.0 acs4baichuan.m.taobao.com  #据说是淘宝授权，可我也没发现APP不能调用登录
+[SKIP] ||adashxgc.ut.taobao.com^$important
+  -> same as: ||adashxgc.ut.taobao.com^
+[SKIP] ||promotion-partner.kuaishou.com^$important
+  -> same as: ||promotion-partner.kuaishou.com^
+[SKIP] ||e-ad-monitor.huya.com^$important
+  -> same as: 0.0.0.0 e-ad-monitor.huya.com
+[SKIP] ||adlaunch.moji.com^$important
+  -> same as: 0.0.0.0 adlaunch.moji.com
+[SKIP] ||adash-emas.cn-hangzhou.aliyuncs.com^$important
+  -> same as: 0.0.0.0 adash-emas.cn-hangzhou.aliyuncs.com
+[SKIP] ||appapi.51job.com^$important
+  -> same as: 0.0.0.0 appapi.51job.com  #前程无忧51job开屏广告，看着误杀大实际未发现
+[SKIP] ||api-share.mob.com^$important
+  -> same as: 0.0.0.0 api-share.mob.com
+[SKIP] ||goblin.hupu.com^$important
+  -> same as: 0.0.0.0 goblin.hupu.com
+[SKIP] ||open-iflow.meizu.com^$important
+  -> same as: 0.0.0.0 open-iflow.meizu.com
+[SKIP] ||reader.meizu.com^$important
+  -> same as: 0.0.0.0 reader.meizu.com  #新闻资讯
+[SKIP] ||dw-reader.meizu.com^$important
+  -> same as: 0.0.0.0 dw-reader.meizu.com
+[SKIP] ||api-flow.flyme.cn^$important
+  -> same as: 0.0.0.0 api-flow.flyme.cn
+[SKIP] ||sax.sina.com.cn^$important
+  -> same as: 0.0.0.0 sax.sina.com.cn
+[SKIP] ||tbexpand.alicdn.com^$important
+  -> same as: 0.0.0.0 tbexpand.alicdn.com  #视频开屏
+[SKIP] ||pigeon.alicdn.com^$important
+  -> same as: 0.0.0.0 pigeon.alicdn.com
+[SKIP] ||ad-log-upload.mihoyo.com^$important
+  -> same as: 0.0.0.0 ad-log-upload.mihoyo.com
+[SKIP] ||imageads.codoon.com^$important
+  -> same as: 0.0.0.0 imageads.codoon.com  #咕咚(运动)
+[SKIP] ||adsdkapi.dxys.pro^$important
+  -> same as: 0.0.0.0 adsdkapi.dxys.pro  #付米联盟
+[SKIP] ||rtbapi.douyucdn.cn^$important
+  -> same as: 0.0.0.0 rtbapi.douyucdn.cn  #斗鱼开屏配置文件？非图，但禁了就不展示广告。
+[SKIP] ||adserviceretry.kglink.cn^$important
+  -> same as: 0.0.0.0 adserviceretry.kglink.cn  #开屏广告？抓包到好多splash字符，测试。
+[SKIP] ||gad.kugou.com^$important
+  -> same as: 0.0.0.0 gad.kugou.com
+[SKIP] ||mvads.kugou.com^$important
+  -> same as: 0.0.0.0 mvads.kugou.com
+[SKIP] ||adservice.kugou.com^$important
+  -> same as: 0.0.0.0 adservice.kugou.com
+[SKIP] ||yfanads.com^$important
+  -> same as: ||yfanads.com^
+[SKIP] ||v1.keepcdn.com^$important
+  -> same as: 0.0.0.0 v1.keepcdn.com
+[SKIP] ||kad.gotokeep.com^$important
+  -> same as: 0.0.0.0 kad.gotokeep.com
+[SKIP] ||appupdate.189.cn^$important
+  -> same as: 0.0.0.0 appupdate.189.cn  #老版更新
+[SKIP] ||appupdates.189.cn^$important
+  -> same as: 0.0.0.0 appupdates.189.cn  #新版更新？
+[SKIP] ||bkappad.189.cn^$important
+  -> same as: 0.0.0.0 bkappad.189.cn  #广告？
+[SKIP] ||partner.uc.cn^$important
+  -> same as: 0.0.0.0 partner.uc.cn
