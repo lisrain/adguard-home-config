@@ -17,6 +17,13 @@
 | `output/filters.txt` | 最终合并去重后的规则文件，可导入 AdGuard Home |
 | `output/dedup-log.txt` | 去重日志，记录被合并的重复规则 |
 
+## 直达链接
+
+| 链接 | 说明 |
+|------|------|
+| [filters.txt](https://raw.githubusercontent.com/lisrain/adguard-home-config/refs/heads/master/output/filters.txt) | GitHub 直连 |
+| [filters.txt (镜像)](https://v4.gh-proxy.org/https://raw.githubusercontent.com/lisrain/adguard-home-config/refs/heads/master/output/filters.txt) | 国内镜像 |
+
 ## 导入 AdGuard Home
 
 1. 下载 `output/filters.txt`
