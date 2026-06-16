@@ -25,6 +25,7 @@ SOURCES = {
     "awavenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "github_hosts": "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts",
     "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
+    "fcm_hosts": "https://raw.githubusercontent.com/cagedbird043/fcm-hosts-next/refs/heads/main/fcm_ipv4.hosts",
 }
 
 AWAVENUE_REPO = "TG-Twilight/AWAvenue-Ads-Rule"
@@ -151,20 +152,28 @@ def filter_removed_domains(input_path: Path, output_path: Path, excluded_domains
     return removed_count
 
 
-def process_smahosts(smahosts_path: Path, github_hosts_path: Path, output_path: Path):
-    """处理 SMAdHosts: 删除旧 GitHub 规则，追加新规则"""
+def process_smahosts(smahosts_path: Path, github_hosts_path: Path, fcm_hosts_path: Path, output_path: Path):
+    """处理 SMAdHosts: 删除旧 FCM 和 GitHub 规则，追加新规则"""
     lines = smahosts_path.read_text(encoding="utf-8").splitlines()
 
-    # 删除第26-59行 (索引25-58)
-    before = lines[:25]
-    after = lines[59:]
+    # 删除第14-23行 (FCM, 索引13-22) 和 第26-59行 (GitHub加速旧规则, 索引25-58)
+    before = lines[:13]
+    after = lines[23:25]
+    after = after + lines[59:]
 
     # 读取 GitHub hosts 数据
     github_lines = github_hosts_path.read_text(encoding="utf-8").splitlines()
     github_entries = [line for line in github_lines if line and not line.startswith("#")]
 
+    # 读取 fcm_hosts 数据，原样合入
+    fcm_lines = fcm_hosts_path.read_text(encoding="utf-8").splitlines()
+    fcm_entries = [line for line in fcm_lines if line.strip()]
+
     # 组合
     result = before + after
+    result.append("")
+    result.append("#FCM推送 (source: fcm-hosts-next)")
+    result.extend(fcm_entries)
     result.append("")
     result.append("#Github加速 (source: github-hosts)")
     result.extend(github_entries)
@@ -232,10 +241,10 @@ def main():
 
     print("\n=== Processing SMAdHosts ===")
 
-    if "smahosts" in files and "github_hosts" in files:
+    if "smahosts" in files and "github_hosts" in files and "fcm_hosts" in files:
         cleaned_path = UPSTREAM_DIR / "smahosts-clean.txt"
         original_count, cleaned_count = process_smahosts(
-            files["smahosts"], files["github_hosts"], cleaned_path
+            files["smahosts"], files["github_hosts"], files["fcm_hosts"], cleaned_path
         )
         print(f"  SMAdHosts: {original_count} -> {cleaned_count} lines")
         files["smahosts_cleaned"] = cleaned_path

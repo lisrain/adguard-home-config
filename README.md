@@ -9,6 +9,7 @@
 | AWAvenueAds | 秋风广告规则 | [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) |
 | SMAdHosts | 国内APP广告拦截 | [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) |
 | Github Hosts | GitHub加速 | [ineo6/hosts](https://github.com/ineo6/hosts) |
+| FCM Hosts | FCM推送规则 | [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) |
 
 ## 产物位置
 
@@ -50,8 +51,7 @@
 
 ```
 ├── scripts/
-│   ├── merge-filters.sh        # 主脚本 (Linux/Actions)
-│   └── merge_filters.py        # 本地测试 (Windows)
+│   └── merge_filters.py        # 合并去重脚本
 ├── custom/                     # 自定义规则源（手动维护）
 ├── upstream/                   # 下载的上游文件（git忽略）
 ├── output/                     # 生成的规则文件
@@ -66,6 +66,7 @@
 - [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) - 秋风广告规则
 - [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) - SM广告拦截 hosts
 - [ineo6/hosts](https://github.com/ineo6/hosts) - GitHub 加速 hosts
+- [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) - FCM 推送 hosts
 - ~~[maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)~~ - 前 GitHub 加速 hosts 上游
 
 ## License
