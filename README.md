@@ -63,7 +63,7 @@
 
 感谢以下仓库提供规则数据：
 
-- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) - 广告拦截规则
+- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) - 秋风广告规则
 - [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) - SM广告拦截 hosts
 - [maxiaof/github-hosts](https://github.com/maxiaof/github-hosts) - GitHub 加速 hosts
 

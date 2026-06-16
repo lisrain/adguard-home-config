@@ -4,6 +4,7 @@ AdGuard Home 过滤规则合并脚本
 从上游源下载、处理并合并过滤规则
 """
 
+import json
 import os
 import platform
 import subprocess
@@ -25,6 +26,9 @@ SOURCES = {
     "github_hosts": "https://raw.githubusercontent.com/maxiaof/github-hosts/refs/heads/master/hosts",
     "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
 }
+
+AWAVENUE_REPO = "TG-Twilight/AWAvenue-Ads-Rule"
+AWAVENUE_FILE = "AWAvenue-Ads-Rule.txt"
 
 
 def download_file(url: str, output_path: Path) -> bool:
@@ -66,6 +70,81 @@ def extract_domain(line: str) -> str:
         return domain
 
     return None
+
+
+def fetch_recently_removed_domains() -> set:
+    """通过 GitHub API 获取 AWAvenue 最新 commit 中被移除的域名"""
+    try:
+        commits_url = f"https://api.github.com/repos/{AWAVENUE_REPO}/commits?per_page=1"
+        token = os.environ.get("GITHUB_TOKEN", "")
+        auth_header = {"Accept": "application/vnd.github.v3+json"}
+        if token:
+            auth_header["Authorization"] = f"token {token}"
+
+        if platform.system() == "Windows":
+            headers_str = " ".join(f'"{k}"="{v}"' for k, v in auth_header.items())
+            ps_cmd = f'(Invoke-WebRequest -Uri "{commits_url}" -UseBasicParsing -Headers @{{{headers_str}}}).Content'
+            result = subprocess.run(["powershell", "-Command", ps_cmd], capture_output=True, text=True, timeout=15)
+            commits = json.loads(result.stdout) if result.returncode == 0 else []
+        else:
+            req = urllib.request.Request(commits_url, headers=auth_header)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                commits = json.loads(resp.read().decode())
+
+        if not commits:
+            return set()
+
+        sha = commits[0]["sha"]
+        commit_url = f"https://api.github.com/repos/{AWAVENUE_REPO}/commits/{sha}"
+        if platform.system() == "Windows":
+            ps_cmd = f'(Invoke-WebRequest -Uri "{commit_url}" -UseBasicParsing -Headers @{{{headers_str}}}).Content'
+            result = subprocess.run(["powershell", "-Command", ps_cmd], capture_output=True, text=True, timeout=15)
+            commit_data = json.loads(result.stdout) if result.returncode == 0 else {}
+        else:
+            req = urllib.request.Request(commit_url, headers=auth_header)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                commit_data = json.loads(resp.read().decode())
+
+        removed_domains = set()
+        for file_info in commit_data.get("files", []):
+            if file_info["filename"] != AWAVENUE_FILE:
+                continue
+            patch = file_info.get("patch", "")
+            for line in patch.split("\n"):
+                if line.startswith("-") and not line.startswith("---"):
+                    domain = extract_domain(line[1:])
+                    if domain:
+                        removed_domains.add(domain)
+
+        return removed_domains
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch AWAvenue commit diff: {e}")
+        return set()
+
+
+def filter_removed_domains(input_path: Path, output_path: Path, excluded_domains: set) -> int:
+    """从合并结果中排除 AWAvenue 最新移除的域名"""
+    lines = input_path.read_text(encoding="utf-8").splitlines()
+    filtered = []
+    log_lines = []
+    removed_count = 0
+
+    for line in lines:
+        domain = extract_domain(line)
+        if domain and domain in excluded_domains:
+            log_lines.append(f"[EXCLUDED] {line.strip()}")
+            log_lines.append(f"  -> removed from AWAvenue in latest commit")
+            removed_count += 1
+        else:
+            filtered.append(line)
+
+    output_path.write_text("\n".join(filtered), encoding="utf-8")
+
+    log_path = output_path.parent / "dedup-log.txt"
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write("\n".join(log_lines) + "\n" if log_lines else "")
+
+    return removed_count
 
 
 def process_smahosts(smahosts_path: Path, github_hosts_path: Path, output_path: Path):
@@ -179,6 +258,16 @@ def main():
         print(f"  Total: {total}")
         print(f"  Unique: {unique}")
         print(f"  Skipped: {skipped}")
+
+        print("\n=== Checking AWAvenue removed domains ===")
+        removed_domains = fetch_recently_removed_domains()
+        if removed_domains:
+            print(f"  Found {len(removed_domains)} removed domains in latest commit")
+            excluded_count = filter_removed_domains(deduped_output, deduped_output, removed_domains)
+            print(f"  Excluded {excluded_count} domains from output")
+        else:
+            print("  No removed domains detected (or API unavailable)")
+
         print(f"\n=== Done ===")
         print(f"  filters.txt: {deduped_output}")
         print(f"  dedup-log.txt: {OUTPUT_DIR / 'dedup-log.txt'}")

@@ -1049,4 +1049,11 @@
 [SKIP] ||bkappad.189.cn^$important
   -> same as: 0.0.0.0 bkappad.189.cn  #广告？
 [SKIP] ||partner.uc.cn^$important
-  -> same as: 0.0.0.0 partner.uc.cn
+  -> same as: 0.0.0.0 partner.uc.cn[EXCLUDED] 0.0.0.0 tnc0-aliec2.zijieapi.com
+  -> removed from AWAvenue in latest commit
+[EXCLUDED] 0.0.0.0 tnc3-aliec2.zijieapi.com
+  -> removed from AWAvenue in latest commit
+[EXCLUDED] 0.0.0.0 tnc3-alisc1.zijieapi.com
+  -> removed from AWAvenue in latest commit
+[EXCLUDED] 0.0.0.0 tnc3-bjlgy.zijieapi.com
+  -> removed from AWAvenue in latest commit
