@@ -142,7 +142,11 @@ def filter_removed_domains(input_path: Path, output_path: Path, excluded_domains
 
     log_path = output_path.parent / "dedup-log.txt"
     with open(log_path, "a", encoding="utf-8") as f:
-        f.write("\n".join(log_lines) + "\n" if log_lines else "")
+        if log_lines:
+            content = log_path.read_text(encoding="utf-8") if log_path.exists() else ""
+            if content and not content.endswith("\n"):
+                f.write("\n")
+            f.write("\n".join(log_lines) + "\n")
 
     return removed_count
 
