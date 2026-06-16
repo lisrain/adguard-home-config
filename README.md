@@ -8,7 +8,7 @@
 |------|------|------|
 | AWAvenueAds | 秋风广告规则 | [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) |
 | SMAdHosts | 国内APP广告拦截 | [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) |
-| Github Hosts | GitHub加速 | [maxiaof/github-hosts](https://github.com/maxiaof/github-hosts) |
+| Github Hosts | GitHub加速 | [ineo6/hosts](https://github.com/ineo6/hosts) |
 
 ## 产物位置
 
@@ -65,7 +65,8 @@
 
 - [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) - 秋风广告规则
 - [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) - SM广告拦截 hosts
-- [maxiaof/github-hosts](https://github.com/maxiaof/github-hosts) - GitHub 加速 hosts
+- [ineo6/hosts](https://github.com/ineo6/hosts) - GitHub 加速 hosts
+- ~~[maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)~~ - 前 GitHub 加速 hosts 上游
 
 ## License
 
