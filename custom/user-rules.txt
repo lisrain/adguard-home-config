@@ -819,14 +819,13 @@
 ||docs.c-ctrip.com^$important
 ||download*.ctrip.com^$important
 #针对美团/美团外卖广告拦截规则
-||dreport.meituan.net^$important
+||catfront.dianping.com^$important
 ||data-sdk-uuid-log.d.meituan.net^$important
 ||tec73.com^$important
 ||wmlog.meituan.com^$important
 ||volces.com^$important
 ||logan.sankuai.com^$important
 ||appsflyersdk.com^$important
-||catfront.dianping.com^$important
 ||alita.waimai.meituan.com^$important
 @@||mrn.meituan.net^$important
 @@||i.meituan.com^$important
@@ -1010,7 +1009,6 @@
 ||api-flow.flyme.cn^$important
 #针对翼支付的广告拦截规则
 ||mdc.bestpay.com.cn^$important
-||mapi.bestpay.com.cn^$important
 #针对小米互联互通的放行规则
 @@||hpplay.cn^$important
 #针对哔咔漫画的广告拦截规则
@@ -1230,5 +1228,9 @@
 @@||audid-api.taobao.com^$important
 #淘宝闪购e起赚小程序误杀放行规则
 @@||shopping.ele.me^$important
-#百度网盘静态文字图标放行
-@@||staticsns.cdn.bcebos.com^$important
+#针对顺丰同城骑士的误杀放行规则
+@@||locprivate-tostc.sf-express.com^$important
+#中山市智慧排水平台误杀放行规则
+@@||zsusw.zs.gdgov.cn^$important
+#针对中国电信的误杀放行规则
+@@||mapi.bestpay.com.cn^$important
