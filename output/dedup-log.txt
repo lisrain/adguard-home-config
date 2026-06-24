@@ -1,124 +1,64 @@
-[SKIP] ||adintl.cn^$important
-  -> same as: ||adintl.cn^
 [SKIP] ||adashx.m.taobao.com^$important
   -> same as: ||adashx.m.taobao.com^
-[SKIP] ||ggx01.miguvideo.com^$important
-  -> same as: ||ggx01.miguvideo.com^
 [SKIP] ||s.bdstatic.com^$important
   -> same as: ||s.bdstatic.com^
 [SKIP] ||ada.baidu.com^$important
   -> same as: ||ada.baidu.com^
-[SKIP] ||miaozhen.com^$important
-  -> same as: ||miaozhen.com^
 [SKIP] ||hpd.baidu.com^$important
   -> same as: ||hpd.baidu.com^
-[SKIP] ||h2tcbox.baidu.com^$important
-  -> same as: ||h2tcbox.baidu.com^
-[SKIP] ||wup.imtt.qq.com^$important
-  -> same as: ||wup.imtt.qq.com^
-[SKIP] ||data.mistat.intl.xiaomi.com^$important
-  -> same as: ||data.mistat.intl.xiaomi.com^
+[SKIP] ||log-sdk.ksapisrv.com^$important
+  -> same as: ||log-sdk.ksapisrv.com^
+[SKIP] ||open.kuaishouzt.com^$important
+  -> same as: ||open.kuaishouzt.com^
+[SKIP] ||logconf.iflytek.com^$important
+  -> same as: ||logconf.iflytek.com^
 [SKIP] ||doubleclick.net^$important
   -> same as: ||doubleclick.net^
 [SKIP] ||365dmp.com^$important
   -> same as: ||365dmp.com^
 [SKIP] ||aoqinglv.cn^$important
   -> same as: ||aoqinglv.cn^
-[SKIP] ||scjpqut.cn^$important
-  -> same as: ||scjpqut.cn^
-[SKIP] ||wsacjdg.cn^$important
-  -> same as: ||wsacjdg.cn^
 [SKIP] ||apidns.kwd.inkuai.com^$important
   -> same as: ||apidns.kwd.inkuai.com^
-[SKIP] ||doh.ptqy.gitv.tv^$important
-  -> same as: ||doh.ptqy.gitv.tv^
-[SKIP] ||dns.weibo.cn^$important
-  -> same as: ||dns.weibo.cn^
-[SKIP] ||dns.jd.com^$important
-  -> same as: ||dns.jd.com^
-[SKIP] ||doh.iqiyi.com^$important
-  -> same as: ||doh.iqiyi.com^
-[SKIP] ||adim.pinduoduo.com^$important
-  -> same as: ||adim.pinduoduo.com^
+[SKIP] ||tsearch.snssdk.com^$important
+  -> same as: ||tsearch.snssdk.com^
 [SKIP] ||domob.cn^$important
   -> same as: ||domob.cn^
-[SKIP] ||applogapi.autohome.com.cn^$important
-  -> same as: ||applogapi.autohome.com.cn^
-[SKIP] ||adproxy.autohome.com.cn^$important
-  -> same as: ||adproxy.autohome.com.cn^
-[SKIP] ||c.autohome.com.cn^$important
-  -> same as: ||c.autohome.com.cn^
-[SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
-  -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
-[SKIP] ||admobile.top^$important
-  -> same as: ||admobile.top^
-[SKIP] ||medproad.com^$important
-  -> same as: ||medproad.com^
-[SKIP] ||vlion.cn^$important
-  -> same as: ||vlion.cn^
-[SKIP] ||advlion.com^$important
-  -> same as: ||advlion.com^
-[SKIP] ||acs4baichuan.m.taobao.com^$important
-  -> same as: ||acs4baichuan.m.taobao.com^
 [SKIP] ||adashxgc.ut.taobao.com^$important
   -> same as: ||adashxgc.ut.taobao.com^
-[SKIP] ||wkanx.com^$important
-  -> same as: ||wkanx.com^
-[SKIP] ||promotion-partner.kuaishou.com^$important
-  -> same as: ||promotion-partner.kuaishou.com^
-[SKIP] ||fileserverpcdn.cdn.huya.com^$important
-  -> same as: ||fileserverpcdn.cdn.huya.com^
 [SKIP] ||irs03.com^$important
   -> same as: ||irs03.com^
 [SKIP] ||reachmax.cn^$important
   -> same as: ||reachmax.cn^
 [SKIP] ||adash-emas.cn-hangzhou.aliyuncs.com^$important
   -> same as: ||adash-emas.cn-hangzhou.aliyuncs.com^
-[SKIP] ||goblin.hupu.com^$important
-  -> same as: ||goblin.hupu.com^
-[SKIP] ||e-goblin.hupu.com^$important
-  -> same as: ||e-goblin.hupu.com^
 [SKIP] ||collect.hupu.com^$important
   -> same as: ||collect.hupu.com^
-[SKIP] ||reader.meizu.com^$important
-  -> same as: ||reader.meizu.com^
-[SKIP] ||api-flow.flyme.cn^$important
-  -> same as: ||api-flow.flyme.cn^
-[SKIP] ||h5log-api-dualstack.mihoyo.com^$important
-  -> same as: ||h5log-api-dualstack.mihoyo.com^
 [SKIP] ||adsdkapi.dxys.pro^$important
   -> same as: ||adsdkapi.dxys.pro^
-[SKIP] ||rtbapi.douyucdn.cn^$important
-  -> same as: ||rtbapi.douyucdn.cn^
-[SKIP] ||metok.sys.miui.com^$important
-  -> same as: ||metok.sys.miui.com^
 [SKIP] ||mvads.kugou.com^$important
   -> same as: ||mvads.kugou.com^
 [SKIP] ||adservice.kugou.com^$important
   -> same as: ||adservice.kugou.com^
+[SKIP] ||voiceads.cn^$important
+  -> same as: ||voiceads.cn^
 [SKIP] ||dmrtb.com^$important
   -> same as: ||dmrtb.com^
-[SKIP] ||yunxish.com^$important
-  -> same as: ||yunxish.com^
-[SKIP] ||adxvip.com^$important
-  -> same as: ||adxvip.com^
-[SKIP] ||afd.baidu.com^$important
-  -> same as: ||afd.baidu.com^
+[SKIP] ||als.baidu.com^$important
+  -> same as: ||als.baidu.com^
 [SKIP] ||beizi.biz^$important
   -> same as: ||beizi.biz^
-[SKIP] ||feed-image.baidu.com^$important
-  -> same as: ||feed-image.baidu.com^
+[SKIP] ||ecma.bdimg.com^$important
+  -> same as: ||ecma.bdimg.com^
 [SKIP] ||hubcloud.com.cn^$important
   -> same as: ||hubcloud.com.cn^
-[SKIP] ||mobads.baidu.com^$important
-  -> same as: ||mobads.baidu.com^
-[SKIP] ||mssdk.volces.com^$important
-  -> same as: ||mssdk.volces.com^
-[SKIP] ||tcbox.baidu.com^$important
-  -> same as: ||tcbox.baidu.com^
-[SKIP] ||1rtb.com^$important
-  -> same as: ||1rtb.com^
-[SKIP] ||1rtb.net^$important
-  -> same as: ||1rtb.net^
-[EXCLUDED] ||tnc3-aliec2.zijieapi.com^
-  -> removed from AWAvenue in latest commit
+[SKIP] ||sofire.baidu.com^$important
+  -> same as: ||sofire.baidu.com^
+[SKIP] ||iwan-s.video.qq.com^
+  -> same as: ||iwan-s.video.qq.com^
+[SKIP] ||mcdn.bilivideo.com^
+  -> same as: ||mcdn.bilivideo.com^
+[SKIP] ||stun.hitv.com^
+  -> same as: ||stun.hitv.com^
+[SKIP] ||d.kugou.com^
+  -> same as: ||d.kugou.com^
