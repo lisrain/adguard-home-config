@@ -102,5 +102,23 @@
   -> same as: ||yunxish.com^
 [SKIP] ||adxvip.com^$important
   -> same as: ||adxvip.com^
+[SKIP] ||afd.baidu.com^$important
+  -> same as: ||afd.baidu.com^
+[SKIP] ||beizi.biz^$important
+  -> same as: ||beizi.biz^
+[SKIP] ||feed-image.baidu.com^$important
+  -> same as: ||feed-image.baidu.com^
+[SKIP] ||hubcloud.com.cn^$important
+  -> same as: ||hubcloud.com.cn^
+[SKIP] ||mobads.baidu.com^$important
+  -> same as: ||mobads.baidu.com^
+[SKIP] ||mssdk.volces.com^$important
+  -> same as: ||mssdk.volces.com^
+[SKIP] ||tcbox.baidu.com^$important
+  -> same as: ||tcbox.baidu.com^
+[SKIP] ||1rtb.com^$important
+  -> same as: ||1rtb.com^
+[SKIP] ||1rtb.net^$important
+  -> same as: ||1rtb.net^
 [EXCLUDED] ||tnc3-aliec2.zijieapi.com^
   -> removed from AWAvenue in latest commit
