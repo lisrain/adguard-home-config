@@ -22,11 +22,11 @@ OUTPUT_DIR = PROJECT_DIR / "output"
 
 # 上游规则源
 SOURCES = {
-    # "awavenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+    "awavenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "github_hosts": "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts",
-    # "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
+    "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
     "fcm_hosts": "https://raw.githubusercontent.com/cagedbird043/fcm-hosts-next/refs/heads/main/fcm_ipv4.hosts",
-    "adblockdnslite": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
+    # "adblockdnslite": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
 }
 
 AWAVENUE_REPO = "TG-Twilight/AWAvenue-Ads-Rule"
@@ -253,12 +253,10 @@ def main():
     print("\n=== Merging and deduplicating ===")
 
     merge_files = []
-    if "adblockdnslite" in files:
-        merge_files.append(files["adblockdnslite"])
-    if "github_hosts" in files:
-        merge_files.append(files["github_hosts"])
-    if "fcm_hosts" in files:
-        merge_files.append(files["fcm_hosts"])
+    if "awavenue" in files:
+        merge_files.append(files["awavenue"])
+    if "smahosts_cleaned" in files:
+        merge_files.append(files["smahosts_cleaned"])
 
     # Add custom rules
     custom_dir = PROJECT_DIR / "custom"
