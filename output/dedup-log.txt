@@ -978,6 +978,8 @@
   -> same as: 0.0.0.0 c.autohome.com.cn
 [SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
   -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
+[SKIP] ||wximg.wxs.qq.com^$important
+  -> same as: ||wximg.wxs.qq.com^
 [SKIP] ||adn.tapapis.cn^$important
   -> same as: 0.0.0.0 adn.tapapis.cn
 [SKIP] ||zhangyuyidong.cn^$important
