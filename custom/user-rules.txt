@@ -25,6 +25,7 @@
 ||compliance.tdos.qq.com^$important
 @@||c.pc.qq.com^$important
 ||tianshu.gtimg.cn^$important
+@@||static-res.qq.com^$important #QQ部分图标资源
 #针对百度的拦截规则，勿删
 ||s.bdstatic.com^$important
 ||wjz-cdn.baidu.com^$important
@@ -853,6 +854,7 @@
 ||leads.*^$important
 #拦截腾讯微信相关域名
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+||wximg.wxs.qq.com^$important
 #针对两步路户外助手广告拦截
 ||shop45920354.m.youzan.com^$important
 ||ad.*^$important
@@ -1165,6 +1167,7 @@
 #针对淘宝系部分误杀放行规则
 @@||uland.taobao.com^$important
 @@||s.click.*.com^$important
+@@||bixi.alicdn.com^$important  #淘宝验证码
 #针对阿里矢量图标库的误杀放行规则
 @@||www.iconfont.cn^$important
 #针对钉钉办公App的误杀放行规则
@@ -1279,8 +1282,6 @@ https://www.nodeseek.com/post-387541-1
 ! 自定义过滤清单 - 综合优化版 (全量合并去重)
 ! 功能：PCDN 抑制、视频/网页去广告、基础功能白名单
 ||*pcdn*^
-||*mcdn*^
-||*hcdn*^
 ||*ppio*^
 ||*onething*^
 ||*pkoplink*^
