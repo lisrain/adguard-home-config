@@ -7,6 +7,7 @@ AdGuard Home 过滤规则合并脚本
 import json
 import os
 import platform
+import re
 import subprocess
 import sys
 import urllib.request
@@ -153,8 +154,54 @@ def filter_removed_domains(input_path: Path, output_path: Path, excluded_domains
     return removed_count
 
 
-def process_smahosts(smahosts_path: Path, github_hosts_path: Path, fcm_hosts_path: Path, output_path: Path):
-    """处理 SMAdHosts: 删除旧 FCM 和 GitHub 规则，追加新规则"""
+def _load_allowlist_patterns(custom_dir: Path) -> list:
+    """从 custom/user-rules.txt 中加载 @@||...^$important 放行规则，编译为正则列表"""
+    rules_file = custom_dir / "user-rules.txt"
+    if not rules_file.exists():
+        return []
+
+    patterns = []
+    for line in rules_file.read_text(encoding="utf-8").splitlines():
+        m = re.match(r'^\s*@@\|\|(.+?)\^\$important', line)
+        if not m:
+            continue
+        raw_domain = m.group(1)
+        # 将 Adblock 通配模式转为正则：* → 匹配除空格外的任意字符
+        regex_str = re.escape(raw_domain).replace(r'\*', r'[^ ]*')
+        patterns.append((raw_domain, re.compile(f'^{regex_str}$')))
+    return patterns
+
+
+def _comment_out_whitelisted(path: Path, patterns: list) -> int:
+    """在 hosts 文件中将匹配放行规则的 0.0.0.0 条目注释掉"""
+    if not patterns:
+        return 0
+
+    lines = path.read_text(encoding="utf-8").splitlines()
+    count = 0
+
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        m = re.match(r'^0\.0\.0\.0\s+(\S+)', stripped)
+        if not m:
+            continue
+        host_domain = m.group(1)
+        for raw_pattern, regex in patterns:
+            if regex.search(host_domain):
+                lines[i] = f"# {line}"
+                count += 1
+                break
+
+    if count:
+        path.write_text("\n".join(lines), encoding="utf-8")
+    return count
+
+
+def process_smahosts(smahosts_path: Path, github_hosts_path: Path, fcm_hosts_path: Path,
+                     output_path: Path, custom_dir: Path = None):
+    """处理 SMAdHosts: 删除旧 FCM 和 GitHub 规则，追加新规则，并注释 user-rules 中放行的域名"""
     lines = smahosts_path.read_text(encoding="utf-8").splitlines()
 
     # 删除第14-23行 (FCM, 索引13-22) 和 第26-59行 (GitHub加速旧规则, 索引25-58)
@@ -180,6 +227,14 @@ def process_smahosts(smahosts_path: Path, github_hosts_path: Path, fcm_hosts_pat
     result.extend(github_entries)
 
     output_path.write_text("\n".join(result), encoding="utf-8")
+
+    # 根据 user-rules.txt 的 @@|| 放行规则，注释掉 hosts 中对应的拦截条目
+    if custom_dir:
+        patterns = _load_allowlist_patterns(custom_dir)
+        if patterns:
+            commented = _comment_out_whitelisted(output_path, patterns)
+            if commented:
+                print(f"  Commented out {commented} entries matching @@|| allowlist")
 
     return len(lines), len(result)
 
@@ -244,8 +299,10 @@ def main():
 
     if "smahosts" in files and "github_hosts" in files and "fcm_hosts" in files:
         cleaned_path = UPSTREAM_DIR / "smahosts-clean.txt"
+        custom_dir = PROJECT_DIR / "custom"
         original_count, cleaned_count = process_smahosts(
-            files["smahosts"], files["github_hosts"], files["fcm_hosts"], cleaned_path
+            files["smahosts"], files["github_hosts"], files["fcm_hosts"],
+            cleaned_path, custom_dir
         )
         print(f"  SMAdHosts: {original_count} -> {cleaned_count} lines")
         files["smahosts_cleaned"] = cleaned_path
