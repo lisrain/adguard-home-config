@@ -42,8 +42,6 @@
   -> same as: ||smad.ms.zhangyue.net^
 [SKIP] 0.0.0.0 ii.gdt.qq.com
   -> same as: ||ii.gdt.qq.com^
-[SKIP] 0.0.0.0 snowflake.qq.com
-  -> same as: ||snowflake.qq.com^
 [SKIP] 0.0.0.0 ad.v3mh.com
   -> same as: ||ad.v3mh.com^
 [SKIP] 0.0.0.0 ads.v3mh.com
@@ -278,8 +276,6 @@
   -> same as: ||appcfg.v.qq.com^
 [SKIP] 0.0.0.0 vd6.l.qq.com
   -> same as: ||vd6.l.qq.com^
-[SKIP] 0.0.0.0 jpush.html5.qq.com
-  -> same as: ||jpush.html5.qq.com^
 [SKIP] 0.0.0.0 kde.qq.com  #小说的广告
   -> same as: ||kde.qq.com^
 [SKIP] 0.0.0.0 q.i.gdt.qq.com
@@ -310,8 +306,6 @@
   -> same as: ||h-adashx.ut.taobao.com^
 [SKIP] 0.0.0.0 adashxgc.ut.taobao.com
   -> same as: ||adashxgc.ut.taobao.com^
-[SKIP] 0.0.0.0 audid-api.taobao.com
-  -> same as: ||audid-api.taobao.com^
 [SKIP] 0.0.0.0 amdcopen.m.taobao.com  #阿里云内置域名解析服务
   -> same as: ||amdcopen.m.taobao.com^
 [SKIP] 0.0.0.0 adashx.m.taobao.com
@@ -332,8 +326,6 @@
   -> same as: ||img-x.jd.com^
 [SKIP] 0.0.0.0 kepler.jd.com
   -> same as: ||kepler.jd.com^
-[SKIP] 0.0.0.0 knicks.jd.com
-  -> same as: ||knicks.jd.com^
 [SKIP] 0.0.0.0 orbit.jd.com
   -> same as: ||orbit.jd.com^
 [SKIP] 0.0.0.0 skdisplay.jd.com
@@ -404,18 +396,12 @@
   -> same as: ||tnc3-alisc1.bytedance.com^
 [SKIP] 0.0.0.0 tnc3-aliec2.bytedance.com
   -> same as: ||tnc3-aliec2.bytedance.com^
-[SKIP] 0.0.0.0 dig.bdurl.net  #头条极速版没网
-  -> same as: ||dig.bdurl.net^
 [SKIP] 0.0.0.0 tnc3-bjlgy.bytedance.com
   -> same as: ||tnc3-bjlgy.bytedance.com^
-[SKIP] 0.0.0.0 tnc3-alisc1.snssdk.com
-  -> same as: ||tnc3-alisc1.snssdk.com^
 [SKIP] 0.0.0.0 tnc3-aliec2.snssdk.com
   -> same as: ||tnc3-aliec2.snssdk.com^
 [SKIP] 0.0.0.0 tnc3-bjlgy.snssdk.com
   -> same as: ||tnc3-bjlgy.snssdk.com^
-[SKIP] 0.0.0.0 toblog.ctobsnssdk.com
-  -> same as: ||toblog.ctobsnssdk.com^
 [SKIP] 0.0.0.0 open.snssdk.com
   -> same as: ||open.snssdk.com^
 [SKIP] 0.0.0.0 abtest-ch.snssdk.com
@@ -584,8 +570,6 @@
   -> same as: ||test.ad.xiaomi.com^
 [SKIP] 0.0.0.0 test.e.ad.xiaomi.com
   -> same as: ||test.e.ad.xiaomi.com^
-[SKIP] 0.0.0.0 tracking.miui.com
-  -> same as: ||tracking.miui.com^
 [SKIP] 0.0.0.0 api.installer.xiaomi.com
   -> same as: ||api.installer.xiaomi.com^
 [SKIP] 0.0.0.0 adv.sec.miui.com
@@ -730,22 +714,14 @@
   -> same as: ||audid.umeng.com^
 [SKIP] 0.0.0.0 ccs.umeng.com
   -> same as: ||ccs.umeng.com^
-[SKIP] 0.0.0.0 cnlogs.umeng.com
-  -> same as: ||cnlogs.umeng.com^
 [SKIP] 0.0.0.0 ocx.umeng.com
   -> same as: 0.0.0.0 ocx.umeng.com
 [SKIP] 0.0.0.0 plbslog.umeng.com
   -> same as: ||plbslog.umeng.com^
-[SKIP] 0.0.0.0 resolve.umeng.com
-  -> same as: ||resolve.umeng.com^
 [SKIP] 0.0.0.0 ulogs.umeng.com
   -> same as: ||ulogs.umeng.com^
-[SKIP] 0.0.0.0 aspect-upush.umeng.com
-  -> same as: ||aspect-upush.umeng.com^
 [SKIP] 0.0.0.0 utoken.umeng.com
   -> same as: ||utoken.umeng.com^
-[SKIP] 0.0.0.0 cnlogs.umengcloud.com
-  -> same as: ||cnlogs.umengcloud.com^
 [SKIP] 0.0.0.0 ex.umengcloud.com
   -> same as: 0.0.0.0 ex.umengcloud.com
 [SKIP] 0.0.0.0 ulogs.umengcloud.com
