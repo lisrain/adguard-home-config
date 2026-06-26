@@ -1086,11 +1086,3 @@
   -> same as: 0.0.0.0 gdt.qq.com
 [SKIP] ||cm.l.qq.com^
   -> same as: 0.0.0.0 cm.l.qq.com
-[EXCLUDED] 0.0.0.0 tnc0-aliec2.zijieapi.com
-  -> removed from AWAvenue in latest commit
-[EXCLUDED] 0.0.0.0 tnc3-aliec2.zijieapi.com
-  -> removed from AWAvenue in latest commit
-[EXCLUDED] 0.0.0.0 tnc3-alisc1.zijieapi.com
-  -> removed from AWAvenue in latest commit
-[EXCLUDED] 0.0.0.0 tnc3-bjlgy.zijieapi.com
-  -> removed from AWAvenue in latest commit
