@@ -7,7 +7,6 @@
 | 名称 | 说明 | 仓库 |
 |------|------|------|
 | AWAvenueAds | 秋风广告规则 | [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) |
-| SMAdHosts | 国内APP广告拦截 | [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) |
 | Github Hosts | GitHub加速 | [ineo6/hosts](https://github.com/ineo6/hosts) |
 | FCM Hosts | FCM推送规则 | [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) |
 | ~~AdBlock DNS Lite~~ | ~~去重合并广告过滤规则~~（暂未启用） | [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) |
@@ -65,7 +64,6 @@
 感谢以下仓库提供规则数据：
 
 - [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule) - 秋风广告规则
-- [2Gardon/SM-Ad-FuckU-hosts](https://github.com/2Gardon/SM-Ad-FuckU-hosts) - SM广告拦截 hosts
 - [ineo6/hosts](https://github.com/ineo6/hosts) - GitHub 加速 hosts
 - [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) - FCM 推送 hosts
 - [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) - 去重合并广告过滤规则

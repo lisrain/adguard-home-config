@@ -7,7 +7,6 @@ AdGuard Home 过滤规则合并脚本
 import json
 import os
 import platform
-import re
 import subprocess
 import sys
 import urllib.request
@@ -25,7 +24,6 @@ OUTPUT_DIR = PROJECT_DIR / "output"
 SOURCES = {
     "awavenue": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "github_hosts": "https://raw.githubusercontent.com/ineo6/hosts/refs/heads/master/hosts",
-    "smahosts": "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts",
     "fcm_hosts": "https://raw.githubusercontent.com/cagedbird043/fcm-hosts-next/refs/heads/main/fcm_ipv4.hosts",
     # "adblockdnslite": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt",
 }
@@ -154,91 +152,6 @@ def filter_removed_domains(input_path: Path, output_path: Path, excluded_domains
     return removed_count
 
 
-def _load_allowlist_patterns(custom_dir: Path) -> list:
-    """从 custom/user-rules.txt 中加载 @@||...^$important 放行规则，编译为正则列表"""
-    rules_file = custom_dir / "user-rules.txt"
-    if not rules_file.exists():
-        return []
-
-    patterns = []
-    for line in rules_file.read_text(encoding="utf-8").splitlines():
-        m = re.match(r'^\s*@@\|\|(.+?)\^\$important', line)
-        if not m:
-            continue
-        raw_domain = m.group(1)
-        # 将 Adblock 通配模式转为正则：* → 匹配除空格外的任意字符
-        regex_str = re.escape(raw_domain).replace(r'\*', r'[^ ]*')
-        patterns.append((raw_domain, re.compile(f'^{regex_str}$')))
-    return patterns
-
-
-def _comment_out_whitelisted(path: Path, patterns: list) -> int:
-    """在 hosts 文件中将匹配放行规则的 0.0.0.0 条目注释掉"""
-    if not patterns:
-        return 0
-
-    lines = path.read_text(encoding="utf-8").splitlines()
-    count = 0
-
-    for i, line in enumerate(lines):
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
-            continue
-        m = re.match(r'^0\.0\.0\.0\s+(\S+)', stripped)
-        if not m:
-            continue
-        host_domain = m.group(1)
-        for raw_pattern, regex in patterns:
-            if regex.search(host_domain):
-                lines[i] = f"# {line}"
-                count += 1
-                break
-
-    if count:
-        path.write_text("\n".join(lines), encoding="utf-8")
-    return count
-
-
-def process_smahosts(smahosts_path: Path, github_hosts_path: Path, fcm_hosts_path: Path,
-                     output_path: Path, custom_dir: Path = None):
-    """处理 SMAdHosts: 删除旧 FCM 和 GitHub 规则，追加新规则，并注释 user-rules 中放行的域名"""
-    lines = smahosts_path.read_text(encoding="utf-8").splitlines()
-
-    # 删除第14-23行 (FCM, 索引13-22) 和 第26-59行 (GitHub加速旧规则, 索引25-58)
-    before = lines[:13]
-    after = lines[23:25]
-    after = after + lines[59:]
-
-    # 读取 GitHub hosts 数据
-    github_lines = github_hosts_path.read_text(encoding="utf-8").splitlines()
-    github_entries = [line for line in github_lines if line and not line.startswith("#")]
-
-    # 读取 fcm_hosts 数据，原样合入
-    fcm_lines = fcm_hosts_path.read_text(encoding="utf-8").splitlines()
-    fcm_entries = [line for line in fcm_lines if line.strip()]
-
-    # 组合
-    result = before + after
-    result.append("")
-    result.append("#FCM推送 (source: fcm-hosts-next)")
-    result.extend(fcm_entries)
-    result.append("")
-    result.append("#Github加速 (source: github-hosts)")
-    result.extend(github_entries)
-
-    output_path.write_text("\n".join(result), encoding="utf-8")
-
-    # 根据 user-rules.txt 的 @@|| 放行规则，注释掉 hosts 中对应的拦截条目
-    if custom_dir:
-        patterns = _load_allowlist_patterns(custom_dir)
-        if patterns:
-            commented = _comment_out_whitelisted(output_path, patterns)
-            if commented:
-                print(f"  Commented out {commented} entries matching @@|| allowlist")
-
-    return len(lines), len(result)
-
-
 def merge_and_dedup(files: list, output_path: Path) -> tuple:
     """合并并去重（兼容 hosts 和 adblock 语法，放行规则不去重）"""
     all_lines = []
@@ -295,25 +208,11 @@ def main():
         else:
             print("FAILED")
 
-    print("\n=== Processing SMAdHosts ===")
-
-    if "smahosts" in files and "github_hosts" in files and "fcm_hosts" in files:
-        cleaned_path = UPSTREAM_DIR / "smahosts-clean.txt"
-        custom_dir = PROJECT_DIR / "custom"
-        original_count, cleaned_count = process_smahosts(
-            files["smahosts"], files["github_hosts"], files["fcm_hosts"],
-            cleaned_path, custom_dir
-        )
-        print(f"  SMAdHosts: {original_count} -> {cleaned_count} lines")
-        files["smahosts_cleaned"] = cleaned_path
-
     print("\n=== Merging and deduplicating ===")
 
     merge_files = []
     if "awavenue" in files:
         merge_files.append(files["awavenue"])
-    if "smahosts_cleaned" in files:
-        merge_files.append(files["smahosts_cleaned"])
 
     # Add custom rules
     custom_dir = PROJECT_DIR / "custom"
