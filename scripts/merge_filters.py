@@ -214,6 +214,11 @@ def main():
     if "awavenue" in files:
         merge_files.append(files["awavenue"])
 
+    # Add github_hosts and fcm_hosts
+    for name in ["github_hosts", "fcm_hosts"]:
+        if name in files:
+            merge_files.append(files[name])
+
     # Add custom rules
     custom_dir = PROJECT_DIR / "custom"
     if custom_dir.exists():
