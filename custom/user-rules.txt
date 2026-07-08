@@ -1271,6 +1271,9 @@
 ||1rtb.com^$important
 ||1rtb.net^$important
 ||adkwai.com^$important
+#针对中国移动cdn误杀放行
+@@||mca.cmpay.com^$important
+@@||www.cmpay.com^$important
 ! ============================================================
 ! 自定义过滤清单 - 综合优化版
 ! 包含：PCDN 抑制、视频去广告、基础白名单放行
