@@ -2239,3 +2239,31 @@
 @@||www.cmpay.com^$important
 #针对美团图片误杀放行
 @@||img.meituan.com^$important
+! ==============================
+! PCDN_HOST & PCDN_PATH
+! ==============================
+||mcdn.bilivideo.cn^
+||cos.bilibili.com^*/pcdn*
+*$path=*/pcdn/*
+*$path=*/mcdn/*
+*$path=*xy*x*x*x*xy*
+
+! ==============================
+! SIGNAL (域名关键词拦截)
+! ==============================
+||*p2p*^$third-party
+||*webrtc*^$third-party
+||*stun*^$third-party
+||*turn*^$third-party
+
+! ==============================
+! ADS
+! ==============================
+||bilibili.com^*/x/web-interface/wbi/index*
+||googleads.com^
+||adsense.com^
+||googlesyndication.com^
+||adsrvr.org^
+||adnxs.com^
+*$path=*/tracking/pixel/*
+*$path=*/beacon/report/*

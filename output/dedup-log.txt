@@ -64,3 +64,7 @@
   -> same as: ||sdk.e.qq.com^
 [SKIP] ||1rtb.com^$important
   -> same as: ||1rtb.com^
+[SKIP] ||szbdyd.com^
+  -> same as: ||szbdyd.com^
+[SKIP] ||doubleclick.net^
+  -> same as: ||doubleclick.net^$important
