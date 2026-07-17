@@ -64,9 +64,3 @@
   -> same as: ||sdk.e.qq.com^
 [SKIP] ||1rtb.com^$important
   -> same as: ||1rtb.com^
-[SKIP] ||tpa-hcdn.iqiyi.com^
-  -> same as: ||tpa-hcdn.iqiyi.com^
-[SKIP] ||stun.hitv.com^
-  -> same as: ||stun.hitv.com^
-[SKIP] ||t7z.cupid.ptqy.gitv.tv^$important
-  -> same as: ||t7z.cupid.ptqy.gitv.tv^
