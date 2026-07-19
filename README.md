@@ -71,4 +71,13 @@
 
 ## License
 
-MIT
+本仓库脚本代码采用 [MIT 许可证](LICENSE)。
+
+上游过滤规则数据的许可证如下：
+
+| 规则源 | 许可证 |
+|--------|--------|
+| AWAvenue-Ads-Rule | GPL-3.0 |
+| adblockfilters | GPL-3.0 |
+| ineo6/hosts | MIT |
+| fcm-hosts-next | MIT |
