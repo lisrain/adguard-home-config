@@ -10,6 +10,7 @@
 | Github Hosts | GitHub加速 | [ineo6/hosts](https://github.com/ineo6/hosts) |
 | FCM Hosts | FCM推送规则 | [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) |
 | ~~AdBlock DNS Lite~~ | ~~去重合并广告过滤规则~~（暂未启用） | [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) |
+| Adguard-Home-For-Magisk-Mod | user-rules部分规则参考 | [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) |
 
 ## 产物位置
 
@@ -67,6 +68,7 @@
 - [ineo6/hosts](https://github.com/ineo6/hosts) - GitHub 加速 hosts
 - [cagedbird043/fcm-hosts-next](https://github.com/cagedbird043/fcm-hosts-next) - FCM 推送 hosts
 - [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) - 去重合并广告过滤规则
+- [liuzq2002/Adguard-Home-For-Magisk-Mod](https://github.com/liuzq2002/Adguard-Home-For-Magisk-Mod) - user-rules 部分规则参考
 - ~~[maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)~~ - 前 GitHub 加速 hosts 上游
 
 ## License
