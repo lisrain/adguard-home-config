@@ -26,8 +26,6 @@
   -> same as: ||api.ssp.xcultur.com^
 [SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
   -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
-[SKIP] ||wximg.wxs.qq.com^$important
-  -> same as: ||wximg.wxs.qq.com^
 [SKIP] ||zhangyuyidong.cn^$important
   -> same as: ||zhangyuyidong.cn^
 [SKIP] ||medproad.com^$important
@@ -40,30 +38,6 @@
   -> same as: ||promotion-partner.kuaishou.com^
 [SKIP] ||yfanads.com^$important
   -> same as: ||yfanads.com^
-[SKIP] ||als.baidu.com^$important
-  -> same as: ||als.baidu.com^
-[SKIP] ||beizi.biz^$important
-  -> same as: ||beizi.biz^
-[SKIP] ||cpro.baidustatic.com^$important
-  -> same as: ||cpro.baidustatic.com^
-[SKIP] ||feed-image.baidu.com^$important
-  -> same as: ||feed-image.baidu.com^
-[SKIP] ||mobads.baidu.com^$important
-  -> same as: ||mobads.baidu.com^
-[SKIP] ||mssdk.volces.com^$important
-  -> same as: ||mssdk.volces.com^
-[SKIP] ||nsclick.baidu.com^$important
-  -> same as: ||nsclick.baidu.com^
-[SKIP] ||pangolin-sdk-toutiao-b.com^$important
-  -> same as: ||pangolin-sdk-toutiao-b.com^
-[SKIP] ||pglstatp-toutiao.com^$important
-  -> same as: ||pglstatp-toutiao.com^
-[SKIP] ||sdktmp.hubcloud.com.cn^$important
-  -> same as: ||sdktmp.hubcloud.com.cn^
-[SKIP] ||sdk.e.qq.com^$important
-  -> same as: ||sdk.e.qq.com^
-[SKIP] ||1rtb.com^$important
-  -> same as: ||1rtb.com^
 [SKIP] ||szbdyd.com^
   -> same as: ||szbdyd.com^
 [SKIP] ||doubleclick.net^
