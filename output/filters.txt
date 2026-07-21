@@ -2138,6 +2138,7 @@
 #针对淘宝系部分误杀放行规则
 @@||uland.taobao.com^$important
 @@||s.click.*.com^$important
+@@||bixi.alicdn.com^$important #淘宝验证码
 #针对阿里矢量图标库的误杀放行规则
 @@||www.iconfont.cn^$important
 #针对钉钉办公App的误杀放行规则
