@@ -1,5 +1,9 @@
 [SKIP] ||ad.gameley.com^
   -> same as: ||ad.gameley.com^
+[SKIP] ||adsmoloco.com^
+  -> same as: ||adsmoloco.com^
+[SKIP] ||unityads.unity3d.com^
+  -> same as: ||unityads.unity3d.com^
 [SKIP] ||ubixioe.com^$important
   -> same as: ||ubixioe.com^
 [SKIP] ||adintl.cn^$important
@@ -26,6 +30,8 @@
   -> same as: ||api.ssp.xcultur.com^
 [SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
   -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
+[SKIP] ||admobile.top^$important
+  -> same as: ||admobile.top^
 [SKIP] ||zhangyuyidong.cn^$important
   -> same as: ||zhangyuyidong.cn^
 [SKIP] ||medproad.com^$important
@@ -36,8 +42,12 @@
   -> same as: ||adashxgc.ut.taobao.com^
 [SKIP] ||promotion-partner.kuaishou.com^$important
   -> same as: ||promotion-partner.kuaishou.com^
+[SKIP] ||adash-emas.cn-hangzhou.aliyuncs.com^$important
+  -> same as: ||adash-emas.cn-hangzhou.aliyuncs.com^
 [SKIP] ||yfanads.com^$important
   -> same as: ||yfanads.com^
+[SKIP] ||yumao.puata.info^$important
+  -> same as: ||yumao.puata.info^
 [SKIP] ||szbdyd.com^
   -> same as: ||szbdyd.com^
 [SKIP] ||doubleclick.net^
