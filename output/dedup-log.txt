@@ -48,7 +48,9 @@
   -> same as: ||yfanads.com^
 [SKIP] ||yumao.puata.info^$important
   -> same as: ||yumao.puata.info^
-[SKIP] ||szbdyd.com^
-  -> same as: ||szbdyd.com^
-[SKIP] ||doubleclick.net^
-  -> same as: ||doubleclick.net^$important
+[SKIP] ||tpa-hcdn.iqiyi.com^
+  -> same as: ||tpa-hcdn.iqiyi.com^
+[SKIP] ||stun.hitv.com^
+  -> same as: ||stun.hitv.com^
+[SKIP] ||t7z.cupid.ptqy.gitv.tv^$important
+  -> same as: ||t7z.cupid.ptqy.gitv.tv^
