@@ -707,7 +707,7 @@
 #拦截HTTPDNS相关域名链接
 ||hdns.ksyun.com$important
 ||apidns.kwd.inkuai.com^$important
-||httpdns.*^$important
+||*httpdns.*^$important
 ||dns*.weixin.qq.*^$important
 ||dns.qq.com^$important
 ||*dns.weixin.qq.*^$important
@@ -721,6 +721,21 @@
 ||dot.api.idmzj.com^$important
 ||doh.iqiyi.com^$important
 ||paydns.wechatpay.cn^$important
+||doh.qq.com^$important
+||dot.qq.com^$important
+||dns.taobao.com^$important
+||dns.tmall.com^$important
+||dns.pinduoduo.com^$important
+||dns.bytedance.com^$important
+||dns.toutiao.com^$important
+||dns.kuaishou.com^$important
+||dns.360.cn^$important
+||dns.sina.com.cn^$important
+||dns.sohu.com^$important
+||dns.163.com^$important
+||dns.yy.com^$important
+||dig.zjurl.cn^$important
+||dns2.q2cdn.com^$important
 #针对网易云音乐的广告拦截规则
 ||nstool.netease.com^$important
 ||ssp-landing.taptap.cn^$important
@@ -1026,8 +1041,6 @@
 ||imageads.codoon.com^$important
 ||adsdkapi.dxys.pro^$important
 ||tobidad.*^$important
-#针对抖音App的放行规则
-@@||dig.bdurl.net^$important
 #针对斗鱼直播的广告拦截规则
 ||rtbapi.douyucdn.cn^$important
 #拦截小米智能服务系统级广告
@@ -1162,7 +1175,6 @@
 #针对淘宝系部分误杀放行规则
 @@||uland.taobao.com^$important
 @@||s.click.*.com^$important
-@@||bixi.alicdn.com^$important #淘宝验证码
 #针对阿里矢量图标库的误杀放行规则
 @@||www.iconfont.cn^$important
 #针对钉钉办公App的误杀放行规则
@@ -1176,7 +1188,6 @@
 @@||xn--vhq3x51dn9bivas49nfps.com^$important
 #针对萤石云视频的广告拦截规则
 ||ad-material.*.com^$important
-||sdk-ab-config-cdn.yunxish.com^$important
 ||appdownload.ys7.com^$important
 #针对123网盘App跳转误杀放行规则
 @@||c.umsns.com^$important
@@ -1231,43 +1242,121 @@
 @@||zsusw.zs.gdgov.cn^$important
 #针对中国电信的误杀放行规则
 @@||mapi.bestpay.com.cn^$important
+#针对淘宝App开屏的广告拦截规则
+||midea-file.oss-cn-hangzhou.aliyuncs.com^$important
+||alibaba-cn-pvg-00001.oss-enet.aliyuncs.com^$important
 #针对掌上莲峰开屏的广告拦截规则
 ||dcloud.net.cn^$important
 #针对三国志战略版的误杀放行规则
 @@||lingxigames.com^$important
 @@||aligames.com^$important
+#针对淘宝闪购商家零售版放行规则
+@@||nracc.ele.me^$important
+#针对决胜巅峰的误杀放行规则
+@@||ad.moonton.cn^$important
+@@||tapapis.cn^$important
+@@||log.dailygn.com^$important
+#阻断ECH公钥链接防止流量绕过
+||_https.*^$important
+||_svcb.*^$important
+#小米应用安装器的放行规则
+@@||api.installer.xiaomi.com^$important
 #针对中国移动cdn误杀放行
 @@||mca.cmpay.com^$important
 @@||www.cmpay.com^$important
 #针对美团图片误杀放行
 @@||img.meituan.com^$important
-! ==============================
-! PCDN_HOST & PCDN_PATH
-! ==============================
+#淘宝验证码放行
+@@||bixi.alicdn.com^$important
+
+
+
+! 腾讯视频
+||hcdn.video.qq.com^
+||pcdn.video.qq.com^
+||vodlive.qq.com^
+||iwan-s.video.qq.com^
+||tpstelemetry.tencent.com^
+||p2p.qq.com^
+! 爱奇艺
+||hcdn.qiyi.com^
+||pdata.video.qiyi.com^
+||cachecdn.v.iqiyi.com^
+||meta-cdn.video.iq.com^
+||tpa-hcdn.iqiyi.com^
+||data6.video.iqiyi.com^
+! 优酷/土豆
+||atm.youku.com^
+||fvid.atm.youku.com^
+||html.atm.youku.com^
+||valb.atm.youku.com^
+||valf.atm.youku.com^
+||static.atm.youku.com^
+||valc.atm.youku.com^
+! 哔哩哔哩
+||mcdn.bilivideo.com^
 ||mcdn.bilivideo.cn^
-||szbdyd.com^
-||cos.bilibili.com^*/pcdn*
-*$path=*/pcdn/*
-*$path=*/mcdn/*
-*$path=*xy*x*x*x*xy*
+||bvc.bilivideo.com^
+! 字节/西瓜/抖音 (去重后保留核心)
+||pull-rtmp-l11.ixigua.com^
+||push-rtmp-l1.ixigua.com^
+||pull-hs-f5-hot.flive.douyincdn.com^
+||flive.douyincdn.com^
+||p2p-v.byteoversea.com^
+||*volcvideo*^
+||*lf3-p2p*^
+||*p2p-snssdk*^
+! 斗鱼/虎牙/芒果
+||p2p.douyucdn.cn^
+||douyucdn.cn^
+||p2p.huya.com^
+||stun.hitv.com^
+! ---------- [4. 音乐与下载抑制] ----------
+||trackercdn.kugou.com^
+||mobiletrackercdn.kugou.com^
+||d.kugou.com^
+||sf.163.com^
+||isure6.stream.qqmusic.qq.com^
+||p-cdn.com^
+||pscdn.co^
+||p.scdn.co^
+! ---------- [5. 协议、日志与 STUN (PCDN 命门)] ----------
+||*p2pupdate*^
+||*p2pupgrade*^
+||*p2perrorlog*^
+||*p2plog*^
+||*p2p-log*^
+||*p2pchunk*^
+||*p2plive*^
+||*cdnnodedns*^
+||*mcdn*gslb*^
+||*p2p*gslb*^
+||*stun.*^
+! ---------- [6. 广告拦截与追踪] ----------
+! DoubleClick 广告素材 CDN (YouTube 等站点中插广告)
+||static.doubleclick.net^
+! 爱奇艺 TV 广告上报
+||t7z.cupid.ptqy.gitv.tv^$important
+! 网页广告与追踪
+||gdt.qq.com^
+||cm.l.qq.com^
 
-! ==============================
-! SIGNAL (域名关键词拦截)
-! ==============================
-||*p2p*^$third-party
-||*webrtc*^$third-party
-||*stun*^$third-party
-||*turn*^$third-party
-
-! ==============================
-! ADS
-! ==============================
-||bilibili.com^*/x/web-interface/wbi/index*
-||googleads.com^
-||doubleclick.net^
-||adsense.com^
-||googlesyndication.com^
-||adsrvr.org^
-||adnxs.com^
-*$path=*/tracking/pixel/*
-*$path=*/beacon/report/*
+! ---------- [7.网友的最新补充] ----------
+||*.kwaicdn.*
+||cdndns.kwd.inkuai.com
+||*.ecukwai.com
+||p5*.*kwai.com
+||p2p*.xxpkg.com
+||*.xyydedge.*
+||*.oppass.*
+||*.wxlivecdn.*
+||*.willcdn.*
+||*.xxpkg.*
+||*.ksapisrv.*
+||*.kwimgs.*
+||*.hongboluo.*
+||*.qjsalia.*
+||*.ndcimgs.*
+||*.xyydnode.*
+! 抖音pcdn
+||*.smtcdns.*
