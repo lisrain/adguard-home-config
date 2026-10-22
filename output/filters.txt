@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 965
+!Total lines: 976
 !Version: 1.7.8-release
-!Update time: 2026-09-21 21:56:59 UTC+8
-!Update content: 新增拦截哔咔漫画广告接口与展示页域名2条，fix #204，感谢@0xLac
+!Update time: 2026-10-22 21:27:09 UTC+8
+!Update content: 新增海信与乐播广告拦截并调整会员推广分类
 
 !Homepage: https://github.com/TG-Twilight/AWAvenue-Ads-Rule
 !License: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/blob/main/LICENSE
@@ -19,6 +19,8 @@
 ||abtest-ch.snssdk.com^
 ||ad-api.4pyun.com^
 ||ad-cdn.qingting.fm^
+||ad-cmp.hismarttv.com^
+||ad-download.hismarttv.com^
 ||ad-files.4pyun.com^
 ||ad-scope.com^
 ||ad-scope.com.cn^
@@ -298,6 +300,7 @@
 ||bj-td-menta-01-callback.advlion.com^
 ||bj.ad.track.66mobi.com^
 ||books-analytics-events.apple.com^
+||boost-cmp.hismarttv.com^
 ||bootpreload.uve.weibo.com^
 ||brandadsstatic.vivo.com.cn^
 ||browser.events.data.msn.cn^
@@ -403,6 +406,7 @@
 ||fxgate.baidu.com^
 ||g-adnet.hiaiabc.com^
 ||g-staic.ganjingworld.com^
+||g.cn.miaozhen.com^
 ||g.dtv.cn.miaozhen.com^
 ||g.fancyapi.com^
 ||g2.ganjing.world^
@@ -478,6 +482,7 @@
 ||img-x.jd.com^
 ||img.adnyg.com.w.kunlungr.com^
 ||img2.360buyimg.com^
+||imp-cmp.hismarttv.com^
 ||impression-asia.chinaliftoff.io^
 ||impression-asia.liftoff.io^
 ||impression.appsflyer.com^
@@ -524,6 +529,7 @@
 ||lives.l.ott.video.qq.com^
 ||livewebbs2pcdn.msstatic.com^
 ||lm10111.jtrincc.cn^
+||loading-cmp.hismarttv.com^
 ||log-api-mn.huxiu.com^
 ||log-api.huxiu.com^
 ||log-api.pangolin-sdk-toutiao-b.com^
@@ -613,6 +619,7 @@
 ||ms4.applovin.com^
 ||ms4.applvn.com^
 ||msdk.voiceads.cn^
+||msg-cmp.hismarttv.com^
 ||mssdk.volces.com^
 ||mssdk.zijieapi.com^
 ||mtj.baidu.com^
@@ -662,6 +669,7 @@
 ||pagead2.googleadservices.com^
 ||pagead2.googlesyndication.com^
 ||pangolin-sdk-toutiao-b.com^
+||paster-cmp.hismarttv.com^
 ||pay.sboot.cn^
 ||pcdn.xmcdn.com^
 ||pcdn.yximgs.com^
@@ -691,6 +699,7 @@
 ||qn-cdnfile1pcdn.msstatic.com^
 ||qqdata.ab.qq.com^
 ||qzs.gdtimg.com^
+||recmd-cmp.hismarttv.com^
 ||recommend-drcn.hms.dbankcloud.cn^
 ||report.dxunion.cn^
 ||report.tencentmusic.com^
@@ -701,6 +710,7 @@
 ||res2.hubcloud.com.cn^
 ||res3.hubcloud.com.cn^
 ||resolve.umeng.com^
+||resource-cmp.hismarttv.com^
 ||review.gdtimg.com^
 ||rlog.popin.cc^
 ||rms-drcn.platform.dbankcloud.cn^
@@ -895,6 +905,7 @@
 ||v2-ad.video.yximgs.com^
 ||v2-api-channel-launcher.hismarttv.com^
 ||v2.gdt.qq.com^
+||v2.reachmax.cn^
 ||v2mi.gdt.qq.com^
 ||v3-ad.video.yximgs.com^
 ||v3.gdt.qq.com^
@@ -981,41 +992,41 @@
 
 185.199.110.215              github.githubassets.com
 140.82.113.22                central.github.com
-185.199.110.133              desktop.githubusercontent.com
-185.199.110.133              camo.githubusercontent.com
-185.199.110.133              github.map.fastly.net
-151.101.129.194              github.global.ssl.fastly.net
-172.182.252.133              gist.github.com
+185.199.108.133              desktop.githubusercontent.com
+185.199.109.133              camo.githubusercontent.com
+185.199.108.133              github.map.fastly.net
+151.101.65.194               github.global.ssl.fastly.net
+140.82.114.3                 gist.github.com
 185.199.110.153              github.io
-172.182.252.133              github.com
-172.182.252.137              api.github.com
-185.199.110.133              raw.githubusercontent.com
-185.199.110.133              user-images.githubusercontent.com
-185.199.110.133              favicons.githubusercontent.com
+140.82.114.4                 github.com
+140.82.112.6                 api.github.com
+185.199.108.133              raw.githubusercontent.com
+185.199.109.133              user-images.githubusercontent.com
+185.199.109.133              favicons.githubusercontent.com
 185.199.110.133              avatars5.githubusercontent.com
 185.199.108.133              avatars4.githubusercontent.com
 185.199.110.133              avatars3.githubusercontent.com
-185.199.110.133              avatars2.githubusercontent.com
-185.199.109.133              avatars1.githubusercontent.com
-185.199.109.133              avatars0.githubusercontent.com
-185.199.108.133              avatars.githubusercontent.com
-140.82.116.10                codeload.github.com
-52.217.205.114               github-cloud.s3.amazonaws.com
-16.15.212.14                 github-com.s3.amazonaws.com
-52.216.60.186                github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.236.172                github-production-user-asset-6210df.s3.amazonaws.com
-52.217.205.114               github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.133              avatars2.githubusercontent.com
+185.199.110.133              avatars1.githubusercontent.com
+185.199.108.133              avatars0.githubusercontent.com
+185.199.111.133              avatars.githubusercontent.com
+140.82.112.9                 codeload.github.com
+16.15.246.140                github-cloud.s3.amazonaws.com
+16.182.97.74                 github-com.s3.amazonaws.com
+52.217.115.106               github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.208.74                github-production-user-asset-6210df.s3.amazonaws.com
+52.217.142.178               github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.110.153              githubstatus.com
-140.82.113.18                github.community
-185.199.110.133              media.githubusercontent.com
-185.199.110.133              objects.githubusercontent.com
-185.199.110.133              raw.github.com
-138.91.182.224               copilot-proxy.githubusercontent.com
+140.82.114.18                github.community
+185.199.109.133              media.githubusercontent.com
+185.199.109.133              objects.githubusercontent.com
+185.199.111.133              raw.github.com
+20.85.130.105                copilot-proxy.githubusercontent.com
 
 # Please Star : https://github.com/ineo6/hosts
 # Mirror Repo : https://gitlab.com/ineo6/hosts
 
-# Update at: 2026-10-22 17:08:09
+# Update at: 2026-10-23 03:43:56
 
 # GitHub Host End
 
@@ -1023,30 +1034,30 @@
 
 
 # Generated by Project Mjolnir
-# Date: 2026-10-22 06:08:19 UTC
+# Date: 2026-10-22 17:59:54 UTC
 # Type: IPv4 Only
 #
 # FCM Domains: mtalk.google.com, mtalk4.google.com, mtalk-staging.google.com...
 # Generated using Go single-node TCP 5228 ranking with nearby expansion
 #
-# Seeds: IPv4=50, IPv6=35
+# Seeds: IPv4=47, IPv6=35
 # Selected: IPv4=12, IPv6=12
-# Workflow Run: 39731972939
-# Commit: 83c491ee1a42
+# Workflow Run: 39827401898
+# Commit: c82aecdc5894
 # Verified On: tencent-fcm-01
 
-142.250.99.188 mtalk.google.com
-108.177.98.188 mtalk4.google.com
-173.194.202.188 mtalk-staging.google.com
-74.125.142.188 mtalk-dev.google.com
-74.125.195.188 alt1-mtalk.google.com
-173.194.43.188 alt2-mtalk.google.com
-192.178.163.188 alt3-mtalk.google.com
-173.194.203.188 alt4-mtalk.google.com
-74.125.199.188 alt5-mtalk.google.com
-192.179.26.188 alt6-mtalk.google.com
-74.125.20.188 alt7-mtalk.google.com
-142.251.188.188 alt8-mtalk.google.com
+74.125.20.188 mtalk.google.com
+172.253.117.188 mtalk4.google.com
+192.178.163.188 mtalk-staging.google.com
+142.250.107.188 mtalk-dev.google.com
+173.194.203.188 alt1-mtalk.google.com
+108.177.98.188 alt2-mtalk.google.com
+74.125.195.188 alt3-mtalk.google.com
+74.125.199.188 alt4-mtalk.google.com
+142.250.99.188 alt5-mtalk.google.com
+142.251.188.188 alt6-mtalk.google.com
+173.194.202.188 alt7-mtalk.google.com
+173.194.43.188 alt8-mtalk.google.com
 
 
 
