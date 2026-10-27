@@ -846,7 +846,6 @@
 #针对动漫之家的拦截规则
 ||mobrtb.com^$important
 ||domob.cn^$important
-||tanx.com^$important
 ||api.ssp.xcultur.com^$important
 ||magicacid.cn^$important
 ||youzanyun.com^$important
