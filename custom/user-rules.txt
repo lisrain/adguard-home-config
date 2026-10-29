@@ -716,7 +716,6 @@
 ||dns.qiyipic.iqiyi.com^$important
 ||dns.weibo.cn^$important
 ||dns.jd.com^$important
-||dns.m.sm.cn^$important
 ||catdot.dianping.com^$important
 ||dot.api.idmzj.com^$important
 ||doh.iqiyi.com^$important
@@ -1252,6 +1251,9 @@
 #针对淘宝闪购商家零售版放行规则
 @@||nracc.ele.me^$important
 #针对决胜巅峰的误杀放行规则
+@@||moonton.cn^$important
+@@||moontonapp.com^$important
+@@||youngjoygame.com^$important
 @@||ad.moonton.cn^$important
 @@||tapapis.cn^$important
 @@||log.dailygn.com^$important
@@ -1260,6 +1262,9 @@
 ||_svcb.*^$important
 #小米应用安装器的放行规则
 @@||api.installer.xiaomi.com^$important
+#小米部分系统应用的误杀放行规则
+@@||tracking.miui.com^$important
+@@||logupdate.avlyun.sec.miui.com^$important
 #针对中国移动cdn误杀放行
 @@||mca.cmpay.com^$important
 @@||www.cmpay.com^$important
@@ -1267,6 +1272,12 @@
 @@||img.meituan.com^$important
 #淘宝验证码放行
 @@||bixi.alicdn.com^$important
+#高德地图登录误杀放行
+@@||adashx.ut.amap.com^$important
+#针对中文域名博客的放行规则
+@@||xn--9swa.com^$important
+#针对神马搜索的误杀放行规则
+@@||m.sm.cn^$important
 
 
 
