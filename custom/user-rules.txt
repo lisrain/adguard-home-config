@@ -1278,7 +1278,10 @@
 @@||xn--9swa.com^$important
 #针对神马搜索的误杀放行规则
 @@||m.sm.cn^$important
-
+#小米app上报拦截
+||fraud-detection.engine.miui.com^$important
+||flash.sec.miui.com^$important
+||dm.wo.com.cn
 
 
 ! 腾讯视频
