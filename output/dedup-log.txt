@@ -28,8 +28,6 @@
   -> same as: ||data-sdk-uuid-log.d.meituan.net^
 [SKIP] ||api.ssp.xcultur.com^$important
   -> same as: ||api.ssp.xcultur.com^
-[SKIP] ||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
-  -> same as: ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 [SKIP] ||admobile.top^$important
   -> same as: ||admobile.top^
 [SKIP] ||zhangyuyidong.cn^$important
