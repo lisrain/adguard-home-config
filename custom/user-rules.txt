@@ -81,9 +81,9 @@
 @@||shuzilm.cn^$important
 #############################
 ||topdalao.lanzoui.com^$important
-||z23r562938.iask.in^$importa
+||z23r562938.iask.in^$important
 ||zzhc.vnet.cn^$important
-||sentry.io^$importantnt
+||sentry.io^$important
 ||api.umengcn.org^$important
 @@||iyfbodn.com^$important
 ||update.googleapis.com^$important
@@ -152,7 +152,6 @@
 ||holvxfq.com^$important
 ||iymgmtq.com^$important
 ||eavztdi.com^$important
-||xn--*.com^$important
 ||jiejie51-*.cc^$important
 ||www.cnhan.com^$important
 ||qwcghh.kxlddy.com^$important
@@ -716,6 +715,7 @@
 ||dns.qiyipic.iqiyi.com^$important
 ||dns.weibo.cn^$important
 ||dns.jd.com^$important
+||dns.m.sm.cn^$important
 ||catdot.dianping.com^$important
 ||dot.api.idmzj.com^$important
 ||doh.iqiyi.com^$important
@@ -735,6 +735,19 @@
 ||dns.yy.com^$important
 ||dig.zjurl.cn^$important
 ||dns2.q2cdn.com^$important
+||xaywl.top^$important
+||z7e9h3es.top^$important
+||etgahx.cn^$important
+||33495737.com^$important
+||v38w6w.top^$important
+||afxgnjg.cn^$important
+||7hgwx.com^$important
+||275ldy0608.cc^$important
+||2750249.cc^$important
+||api-dc2-prod-08.cyou^$important
+||elsmjsttx.cc^$important
+||yvresguot.cc^$important
+||moiqlwyyfmauwpyhcfezmtnxz.com^$important
 #针对网易云音乐的广告拦截规则
 ||nstool.netease.com^$important
 ||ssp-landing.taptap.cn^$important
@@ -755,7 +768,7 @@
 #针对字节跳动系列广告的拦截规则
 ||rup4a04-c02.tos-cn-hongkong.bytepluses.com^$important
 ||crashlytics.com^$important
-||ads*-normal-hl.zijieapi.com^important
+||ads*-normal-hl.zijieapi.com^$important
 ||log*-applog-hl.fqnovel.com^important
 ||rtlog*-applog-hl.fqnovel.com^important
 ||p*-ad-sign.byteimg.com^important
@@ -812,7 +825,7 @@
 ||abtest*-misc.zijieapi.com^$important
 ||ugsdk.cn^$important
 ||track.ranfenghd.com^$important
-||tnc*-alisc*.zijieapi.com^$importat
+||tnc*-alisc*.zijieapi.com^$important
 @@||saveu5-normal-lq.zijieapi.com^$important
 @@||ecombdimg.com^$important
 #屏蔽国家反诈中心及其相关域名
@@ -845,6 +858,7 @@
 #针对动漫之家的拦截规则
 ||mobrtb.com^$important
 ||domob.cn^$important
+||tanx.com^$important
 ||api.ssp.xcultur.com^$important
 ||magicacid.cn^$important
 ||youzanyun.com^$important
@@ -861,8 +875,6 @@
 ||news.app.autohome.com.cn^$important
 ||guanceyun.autohome.com.cn^$important
 ||leads.*^$important
-#拦截腾讯微信相关域名
-||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 #针对两步路户外助手广告拦截
 ||shop45920354.m.youzan.com^$important
 ||ad.*^$important
@@ -1055,6 +1067,7 @@
 ||vip.aqdm349.com^$important
 ||vip.huijujiavip.com^$important
 #针对酷狗音乐的广告拦截规则
+||adsfile.kugou.com^$important
 ||voowebpbssdl.kugou.com^$important
 ||h5retry.kugou.com^$important
 ||adserviceretry.kglink.cn^$important
@@ -1105,8 +1118,6 @@
 #针对驾校一点通的广告拦截规则
 ||richmanrank.ksedt.com^$important
 ||resauth.kuwo.cn^$important
-#针对谷歌商店更新应用的误杀放行
-@@||rr*---sn-*.xn--ngstr-lra8j.com^$important
 #针对微信游戏小程序的误杀放行
 @@||game.weixin.qq.com^$important
 @@||szlong.weixin.qq.com^$important
@@ -1130,8 +1141,6 @@
 ||sharkcloud.app^$important
 ||789free.fun^$important
 ||iqq*.work^$important
-#针对饭太硬视频源的放行规则
-@@||www.xn--sss604efuw.com^$important
 #针对腾讯软件更新下载的放行规则
 @@||imtt.dd.qq.com^$important
 @@||down-update.qq.com^$important
@@ -1142,9 +1151,6 @@
 ||ssp.vivo.com.cn^$important
 ||ssp-sdk-config.uc.cn^$important
 ||partner.uc.cn^$important
-#针对一些机场的误杀放行规则
-@@||xn--ehqx7tcnnope.com^$important
-@@||xn--4gqu8tcnnope.com^$important
 #针对豆包APP的误杀放行规则
 @@||log.snssdk.com^$important
 @@||tnc3-alisc1.snssdk.com^$important
@@ -1182,8 +1188,6 @@
 @@||ac.opapp.cn^$important
 #针对徐小包奶茶小程序误杀放行规则
 @@||acs-m.koubei.com^$important
-#针对clicli动漫的误杀放行规则
-@@||xn--vhq3x51dn9bivas49nfps.com^$important
 #针对萤石云视频的广告拦截规则
 ||ad-material.*.com^$important
 ||appdownload.ys7.com^$important
@@ -1208,8 +1212,6 @@
 ||djvod.ndcimgs.com^$important
 #针对王者荣耀活动误杀放行规则
 @@||img.ssl.msdk.qq.com^$important
-#针对小米应用商店误杀放行规则
-@@||xn--osvr71goa.com^$important
 #针对午夜AV的广告拦截规则
 ||s1-a1.global-cdn.me^$important
 ||pptstatic.wyav.tv^$important
@@ -1227,7 +1229,7 @@
 #针对小米移动的误杀放行规则
 @@||apm-rum.inf.miui.com^$important
 #针对搜狗输入法的误杀放行规则
-@@input.shouji.sogou.com^$important
+@@||input.shouji.sogou.com^$important
 #针对手心输入法的误杀放行规则
 @@shouji.360.cn^$important
 #针对淘宝联盟App的误杀放行规则
@@ -1254,13 +1256,8 @@
 @@||moonton.cn^$important
 @@||moontonapp.com^$important
 @@||youngjoygame.com^$important
-@@||ad.moonton.cn^$important
 @@||tapapis.cn^$important
 @@||log.dailygn.com^$important
-#阻断ECH公钥链接防止流量绕过
-||_https.*^$important
-||_svcb.*^$important
-#小米应用安装器的放行规则
 @@||api.installer.xiaomi.com^$important
 #小米部分系统应用的误杀放行规则
 @@||tracking.miui.com^$important
@@ -1274,14 +1271,20 @@
 @@||bixi.alicdn.com^$important
 #高德地图登录误杀放行
 @@||adashx.ut.amap.com^$important
-#针对中文域名博客的放行规则
-@@||xn--9swa.com^$important
 #针对神马搜索的误杀放行规则
 @@||m.sm.cn^$important
-#小米app上报拦截
+#拦截小米监控后门域名
 ||fraud-detection.engine.miui.com^$important
 ||flash.sec.miui.com^$important
-||dm.wo.com.cn
+||dm.wo.com.cn^$important
+||api.sec.miui.com^$important
+||virus-engine.sec.miui.com^$important
+||detection-aigc.engine.miui.com^$important
+||eps.caict.ac.cn^$important
+||gateway-papa.cloud.weizhi.com^$important
+||srv.sec.miui.com^$important
+||pn-tracking-bak.onetrack.mi.com^$important
+||framework.sec.miui.com^$important
 
 
 ! 腾讯视频
