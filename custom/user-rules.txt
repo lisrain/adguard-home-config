@@ -858,7 +858,6 @@
 #针对动漫之家的拦截规则
 ||mobrtb.com^$important
 ||domob.cn^$important
-||tanx.com^$important
 ||api.ssp.xcultur.com^$important
 ||magicacid.cn^$important
 ||youzanyun.com^$important
@@ -875,6 +874,8 @@
 ||news.app.autohome.com.cn^$important
 ||guanceyun.autohome.com.cn^$important
 ||leads.*^$important
+#针对腾讯微信相关域名的放行规则
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 #针对两步路户外助手广告拦截
 ||shop45920354.m.youzan.com^$important
 ||ad.*^$important
